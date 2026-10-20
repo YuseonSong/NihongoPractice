@@ -1,21 +1,55 @@
-import { useEffect, useMemo, useState } from 'react'
-import { Check, ChevronLeft, ChevronRight, Eye, EyeOff, Heart, Volume2, VolumeX } from 'lucide-react'
+import { useEffect, useRef } from 'react'
+import { Check, ChevronLeft, ChevronRight, Eye, EyeOff, Heart } from 'lucide-react'
+import { AudioControls } from '../components/AudioControls'
+import { conversationAudioId } from '../audio/catalog'
 import { conversationCategories } from '../data/conversations'
+import audioReadings from '../data/audio-readings.json'
+import { useSavedState } from '../hooks/useSavedState'
 import type { Progress } from '../types'
 
-type Props={progress:Progress;toggleLearned:(id:string)=>void;toggleFavorite:(id:string)=>void}
-export function Conversation({progress,toggleLearned,toggleFavorite}:Props){
- const [categoryId,setCategoryId]=useState(conversationCategories[0].id); const [index,setIndex]=useState(0); const [showMeaning,setShowMeaning]=useState(true); const [voiceAvailable,setVoiceAvailable]=useState<boolean|null>(null); const [message,setMessage]=useState('')
- const category=conversationCategories.find(c=>c.id===categoryId)!; const phrase=category.phrases[index]
- useEffect(()=>{const check=()=>setVoiceAvailable(window.speechSynthesis.getVoices().some(v=>v.lang.toLowerCase().startsWith('ja')));check();window.speechSynthesis.addEventListener('voiceschanged',check);return()=>window.speechSynthesis.removeEventListener('voiceschanged',check)},[])
- const selectCategory=(id:string)=>{setCategoryId(id);setIndex(0);setShowMeaning(true);setMessage('')}; const move=(d:number)=>{setIndex((index+d+category.phrases.length)%category.phrases.length);setShowMeaning(false);setMessage('')}
- const speak=()=>{if(!('speechSynthesis' in window)){setMessage('이 환경에서는 음성 합성을 지원하지 않아요.');return} const voices=window.speechSynthesis.getVoices(); const voice=voices.find(v=>v.lang.toLowerCase().startsWith('ja')); if(!voice){setMessage('일본어 음성이 설치되어 있지 않아요. Windows 설정에서 일본어 음성 패키지를 추가해 주세요.');return} const utterance=new SpeechSynthesisUtterance(phrase.japanese);utterance.lang='ja-JP';utterance.voice=voice;utterance.rate=.85;window.speechSynthesis.cancel();window.speechSynthesis.speak(utterance)}
- const completed=progress.conversationLearned.includes(phrase.id); const favorite=progress.favorites.includes(phrase.id); const categoryDone=category.phrases.filter(p=>progress.conversationLearned.includes(p.id)).length
- return <main className="mx-auto max-w-7xl px-5 pb-28 pt-9"><div><p className="text-sm font-bold text-rose-500">바로 쓰는 일본어</p><h1 className="mt-1 text-3xl font-black md:text-4xl">일상 회화 학습</h1><p className="mt-2 text-stone-500">한국어 발음은 참고로만 보고, 일본어 음성을 반복해서 들어 보세요.</p></div>
-  <div className="mt-7 flex gap-3 overflow-x-auto pb-3">{conversationCategories.map(c=>{const done=c.phrases.filter(p=>progress.conversationLearned.includes(p.id)).length;return <button key={c.id} onClick={()=>selectCategory(c.id)} className={`min-w-48 rounded-2xl border p-4 text-left transition ${categoryId===c.id?'border-rose-300 bg-rose-50':'border-orange-100 bg-white'}`}><span className="text-2xl">{c.icon}</span><p className="mt-2 font-black">{c.title}</p><div className="mt-3 h-1.5 rounded-full bg-stone-100"><div className="h-full rounded-full bg-rose-400" style={{width:`${done*10}%`}}/></div><p className="mt-1 text-xs font-bold text-stone-400">{done}/10 완료</p></button>})}</div>
-  <section className="mt-5 grid gap-5 lg:grid-cols-[1fr_260px]"><div className="rounded-[2rem] border border-orange-100 bg-white p-6 shadow-soft md:p-9"><div className="flex items-center justify-between"><span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-black text-amber-700">{phrase.politeness}</span><span className="text-sm font-bold text-stone-400">{index+1} / 10</span></div><p className="mt-8 text-center text-3xl font-black leading-relaxed md:text-5xl">{phrase.japanese}</p><p className="mt-4 text-center text-lg font-bold text-rose-500">{phrase.romaji}</p><p className="mt-1 text-center text-sm text-stone-400">{phrase.koreanSound}</p><div className="mt-7 flex justify-center gap-2"><button onClick={speak} className="inline-flex items-center gap-2 rounded-xl bg-blue-50 px-4 py-2.5 text-sm font-black text-blue-600">{voiceAvailable===false?<VolumeX size={18}/>:<Volume2 size={18}/>}발음 듣기</button><button onClick={()=>setShowMeaning(!showMeaning)} className="inline-flex items-center gap-2 rounded-xl bg-stone-100 px-4 py-2.5 text-sm font-black">{showMeaning?<EyeOff size={18}/>:<Eye size={18}/>}뜻 {showMeaning?'숨기기':'보기'}</button></div>{message&&<p role="alert" className="mx-auto mt-4 max-w-lg rounded-xl bg-amber-50 p-3 text-center text-sm font-semibold text-amber-700">{message}</p>}
-   <div className={`mt-7 overflow-hidden rounded-2xl bg-cream transition-all ${showMeaning?'max-h-96 p-5 opacity-100':'max-h-0 p-0 opacity-0'}`}><p className="text-xl font-black">{phrase.meaning}</p><dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2"><div><dt className="font-black text-stone-400">사용 상황</dt><dd className="mt-1 font-semibold">{phrase.situation}</dd></div><div><dt className="font-black text-stone-400">표현 포인트</dt><dd className="mt-1 font-semibold">{phrase.note}</dd></div></dl></div>
-   <div className="mt-7 flex items-center justify-between"><button onClick={()=>move(-1)} className="grid h-11 w-11 place-items-center rounded-full bg-stone-100"><ChevronLeft/></button><div className="flex gap-2"><button aria-label="즐겨찾기" onClick={()=>toggleFavorite(phrase.id)} className={`grid h-11 w-11 place-items-center rounded-xl ${favorite?'bg-rose-100 text-rose-500':'bg-stone-100 text-stone-400'}`}><Heart size={20} fill={favorite?'currentColor':'none'}/></button><button onClick={()=>toggleLearned(phrase.id)} className={`inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-black ${completed?'bg-emerald-100 text-emerald-700':'bg-ink text-white'}`}><Check size={17}/>{completed?'학습 완료':'공부했어요'}</button></div><button onClick={()=>move(1)} className="grid h-11 w-11 place-items-center rounded-full bg-stone-100"><ChevronRight/></button></div></div>
-   <aside className="rounded-3xl bg-ink p-6 text-white"><p className="text-sm font-bold text-rose-300">카테고리 진도</p><p className="mt-2 text-2xl font-black">{category.title}</p><p className="mt-2 text-sm text-white/60">{category.description}</p><div className="mt-6 text-5xl font-black">{categoryDone*10}%</div><div className="mt-3 h-2 rounded-full bg-white/10"><div className="h-full rounded-full bg-rose-400" style={{width:`${categoryDone*10}%`}}/></div></aside></section>
- </main>
+type Props={progress:Progress;toggleLearned:(id:string)=>void;toggleFavorite:(id:string)=>void;onResume?:(label:string)=>void}
+type ConversationView={categoryId:string;phraseId:string;showMeaning:boolean;showReading:boolean;showHelp:boolean}
+const readings:Record<string,string>=audioReadings
+const validView=(raw:unknown):raw is ConversationView=>{
+  if(!raw||typeof raw!=='object')return false
+  const view=raw as Partial<ConversationView>
+  return typeof view.showMeaning==='boolean'&&typeof view.showReading==='boolean'&&typeof view.showHelp==='boolean'&&conversationCategories.some(category=>category.id===view.categoryId&&category.phrases.some(phrase=>phrase.id===view.phraseId))
+}
+
+export function Conversation({progress,toggleLearned,toggleFavorite,onResume}:Props){
+  const first=conversationCategories[0]
+  const [view,setView]=useSavedState<ConversationView>('conversation',{categoryId:first.id,phraseId:first.phrases[0].id,showMeaning:true,showReading:true,showHelp:false},validView)
+  const category=conversationCategories.find(item=>item.id===view.categoryId)??first
+  const index=Math.max(0,category.phrases.findIndex(item=>item.id===view.phraseId)), phrase=category.phrases[index]
+  const completed=progress.conversationLearned.includes(phrase.id), favorite=progress.favorites.includes(phrase.id)
+  const categoryDone=category.phrases.filter(item=>progress.conversationLearned.includes(item.id)).length
+  const resumeRef=useRef(onResume);resumeRef.current=onResume
+  useEffect(()=>{resumeRef.current?.(`회화 · ${category.title} · ${index+1}번째 문장`)},[category.id,phrase.id,index])
+  const selectCategory=(id:string)=>{
+    const next=conversationCategories.find(item=>item.id===id)
+    if(next&&next.id!==category.id)setView(previous=>({...previous,categoryId:id,phraseId:next.phrases[0].id}))
+  }
+  const move=(delta:number)=>setView(previous=>({...previous,phraseId:category.phrases[(index+delta+category.phrases.length)%category.phrases.length].id}))
+  const toggle=(key:'showMeaning'|'showReading'|'showHelp')=>setView(previous=>({...previous,[key]:!previous[key]}))
+  return <main className="mx-auto max-w-5xl px-4 pb-28 pt-7 sm:px-5">
+    <div><p className="text-sm font-bold text-rose-500">바로 쓰는 일본어</p><h1 className="mt-1 text-3xl font-black">일상 회화 학습</h1><p className="mt-2 text-sm leading-relaxed text-stone-500">일본어 음성을 듣고 따라 말해 보세요. 가나 읽기와 뜻은 필요할 때 숨길 수 있어요.</p></div>
+    <div className="mt-5 flex gap-2 overflow-x-auto pb-2" aria-label="회화 카테고리">{conversationCategories.map(item=><button type="button" key={item.id} aria-pressed={category.id===item.id} onClick={()=>selectCategory(item.id)} className={`min-h-11 shrink-0 rounded-full border px-4 py-2 text-sm font-bold transition ${category.id===item.id?'border-rose-300 bg-rose-50 text-rose-700':'border-orange-100 bg-white text-stone-600'}`}><span aria-hidden="true">{item.icon} </span>{item.title}</button>)}</div>
+    <section className="mt-4 rounded-[2rem] border border-orange-100 bg-white p-5 shadow-soft sm:p-8">
+      <div className="flex flex-wrap items-center justify-between gap-3"><div><h2 className="font-black">{category.title}</h2><p className="mt-1 text-xs text-stone-500">{category.description}</p></div><p className="text-sm font-bold text-stone-500">{categoryDone}/{category.phrases.length} 학습 완료</p></div>
+      <div role="progressbar" aria-label={`${category.title} 학습 진도`} aria-valuemin={0} aria-valuemax={category.phrases.length} aria-valuenow={categoryDone} className="mt-3 h-1.5 overflow-hidden rounded-full bg-orange-50"><div className="h-full rounded-full bg-rose-400" style={{width:`${categoryDone/category.phrases.length*100}%`}}/></div>
+      <div className="mt-6 flex flex-wrap items-center justify-between gap-2"><span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-black text-amber-700">{phrase.politeness}</span><label className="flex min-w-0 max-w-full items-center gap-2 text-sm font-bold text-stone-500">문장<select aria-label="회화 문장 선택" value={phrase.id} onChange={event=>setView(previous=>({...previous,phraseId:event.target.value}))} className="min-h-10 min-w-0 max-w-64 rounded-lg border border-orange-100 bg-cream px-2 text-ink">{category.phrases.map((item,itemIndex)=><option key={item.id} value={item.id}>{itemIndex+1}. {item.meaning}</option>)}</select></label></div>
+      <p className="mt-7 break-keep text-center text-3xl font-black leading-relaxed sm:text-4xl" lang="ja">{phrase.japanese}</p>
+      {view.showReading&&readings[phrase.id]&&<p id="conversation-reading" className="mt-3 text-center text-lg leading-relaxed text-rose-600" lang="ja">{readings[phrase.id]}</p>}
+      {view.showHelp&&<div id="conversation-help" className="mt-3 text-center"><p className="text-base font-bold text-stone-600">{phrase.romaji}</p><p className="mt-1 text-sm text-stone-500">{phrase.koreanSound}</p><p className="mt-2 text-xs text-stone-400">한국어·로마자 표기는 참고용이에요. 실제 발음은 음성으로 익혀 주세요.</p></div>}
+      <div className="mt-5 flex flex-wrap justify-center gap-2">
+        <button type="button" aria-pressed={view.showReading} aria-controls="conversation-reading" onClick={()=>toggle('showReading')} className="min-h-10 rounded-xl bg-stone-100 px-3 py-2 text-xs font-bold">가나 읽기 {view.showReading?'숨기기':'보기'}</button>
+        <button type="button" aria-pressed={view.showHelp} aria-controls="conversation-help" onClick={()=>toggle('showHelp')} className="min-h-10 rounded-xl bg-stone-100 px-3 py-2 text-xs font-bold">한국어·로마자 {view.showHelp?'숨기기':'도움말'}</button>
+        <button type="button" aria-pressed={view.showMeaning} aria-controls="conversation-meaning" onClick={()=>toggle('showMeaning')} className="inline-flex min-h-10 items-center gap-1.5 rounded-xl bg-stone-100 px-3 py-2 text-xs font-bold">{view.showMeaning?<EyeOff size={15}/>:<Eye size={15}/>}뜻 {view.showMeaning?'숨기기':'보기'}</button>
+      </div>
+      <div className="mt-4"><AudioControls key={phrase.id} contentId={conversationAudioId(phrase.id)} label={phrase.japanese}/></div>
+      {view.showMeaning&&<div id="conversation-meaning" className="mt-6 rounded-2xl bg-cream p-5"><p className="text-xl font-black">{phrase.meaning}</p><dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2"><div><dt className="font-black text-stone-400">사용 상황</dt><dd className="mt-1 leading-relaxed">{phrase.situation}</dd></div><div><dt className="font-black text-stone-400">표현 포인트</dt><dd className="mt-1 leading-relaxed">{phrase.note}</dd></div></dl></div>}
+      <div className="mt-6 flex items-center justify-between gap-2"><button type="button" aria-label="이전 문장" onClick={()=>move(-1)} className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-stone-100"><ChevronLeft/></button><span aria-live="polite" className="text-sm font-bold text-stone-400">{index+1} / {category.phrases.length}</span><button type="button" aria-label="다음 문장" onClick={()=>move(1)} className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-stone-100"><ChevronRight/></button></div>
+      <div className="mt-4 flex flex-wrap justify-center gap-2"><button type="button" aria-label={favorite?'즐겨찾기 취소':'즐겨찾기 추가'} aria-pressed={favorite} onClick={()=>toggleFavorite(phrase.id)} className={`inline-flex min-h-11 items-center gap-2 rounded-xl px-4 text-sm font-bold ${favorite?'bg-rose-100 text-rose-500':'bg-stone-100 text-stone-500'}`}><Heart size={18} fill={favorite?'currentColor':'none'}/>즐겨찾기</button><button type="button" aria-pressed={completed} onClick={()=>toggleLearned(phrase.id)} className={`inline-flex min-h-11 items-center gap-2 rounded-xl px-5 py-3 text-sm font-black ${completed?'bg-emerald-100 text-emerald-700':'bg-ink text-white'}`}><Check size={17}/>{completed?'학습 완료 · 취소하기':'이 문장을 공부했어요'}</button></div>
+    </section>
+  </main>
 }

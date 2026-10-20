@@ -1,4 +1,8 @@
-export type Tab = 'home' | 'hiragana' | 'katakana' | 'conversation' | 'quiz' | 'review'
+export type Tab = 'home' | 'hiragana' | 'katakana' | 'conversation' | 'quiz' | 'review' | 'handwriting' | 'pronunciation'
+export type QuizScope = 'hiragana' | 'katakana' | 'conversation'
+export interface QuizItemStat { scope:QuizScope; id:string; correct:number; wrong:number; lastCorrect:boolean; updatedAt:string }
+export interface QuizLaunch { scope:QuizScope; ids?:string[]; mode?:'learned'|'basic'|'all'|'mistakes'; nonce:number }
+export interface ResumeTarget { tab:Exclude<Tab,'home'>; label:string }
 export type ScriptType = 'hiragana' | 'katakana'
 export type KanaKind = 'basic' | 'dakuten' | 'handakuten' | 'yoon'
 export type Politeness = '존댓말' | '반말' | '공통'
@@ -35,7 +39,12 @@ export interface ConversationCategory {
 
 export interface QuizStat { correct: number; total: number }
 
+export interface WritingStat { attempts:number; best:number; latest:number; sum:number; lastPracticed:string; version:string }
+export type WritingStatsMap = Record<string, WritingStat>
+
 export interface Progress {
+  quizItems:Record<string,QuizItemStat>
+  handwriting: WritingStatsMap
   learned: string[]
   quizCorrect: number
   quizTotal: number

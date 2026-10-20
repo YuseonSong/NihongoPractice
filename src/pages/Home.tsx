@@ -1,14 +1,37 @@
-import { ArrowRight, BookOpen, Brain, Flame, Languages, MessageCircle, Sparkles, Target } from 'lucide-react'
-import type { Progress, Tab } from '../types'
+import { ArrowRight, BookOpen, Brain, Flame, Languages, MessageCircle, RotateCcw } from 'lucide-react'
+import { WritingStats } from '../components/WritingStats'
 import { katakanaBasic } from '../data/katakana'
+import type { Progress, ResumeTarget, Tab } from '../types'
 
-type Props={progress:Progress;todayLearnedCount:number;setTab:(tab:Tab)=>void;reset:()=>void}
-export function Home({progress,todayLearnedCount,setTab,reset}:Props){
- const hira=Math.round(progress.learned.length/46*100);const kataBasic=progress.katakanaLearned.filter(char=>katakanaBasic.some(item=>item.char===char)).length;const kata=Math.min(100,Math.round(kataBasic/46*100));const conv=Math.round(progress.conversationLearned.length/70*100);const accuracy=progress.quizTotal?Math.round(progress.quizCorrect/progress.quizTotal*100):0;const cumulative=progress.learned.length+progress.katakanaLearned.length+progress.conversationLearned.length
- const stats=[{icon:Sparkles,label:'오늘 학습',value:`${todayLearnedCount}개`,color:'bg-rose-100 text-rose-500'},{icon:Target,label:'누적 학습',value:`${cumulative}개`,color:'bg-blue-100 text-blue-500'},{icon:Brain,label:'전체 정답률',value:`${accuracy}%`,color:'bg-amber-100 text-amber-600'},{icon:Flame,label:'연속 학습',value:`${progress.streak}일`,color:'bg-orange-100 text-orange-500'}]
- return <main className="mx-auto max-w-7xl px-5 pb-28 pt-9 md:pt-12"><section className="relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-rose-400 via-orange-300 to-amber-200 p-7 text-white shadow-soft md:p-11"><div className="absolute -right-4 -top-14 select-none text-[180px] font-black text-white/20">日</div><div className="relative max-w-2xl"><span className="inline-flex items-center gap-2 rounded-full bg-white/20 px-3 py-1 text-sm font-bold"><Sparkles size={15}/>오늘도 니혼고 메이트와 함께</span><h1 className="mt-5 text-4xl font-black leading-tight md:text-6xl">말하고 읽는<br/>일본어 첫걸음.</h1><p className="mt-4 max-w-lg text-white/90">문자부터 실전 회화까지 한 번에. 작은 완료를 쌓아 일본어와 친해져 보세요.</p><button onClick={()=>setTab('conversation')} className="mt-7 inline-flex items-center gap-2 rounded-2xl bg-white px-6 py-3.5 font-black text-rose-500 shadow-lg">오늘의 회화 시작<ArrowRight size={19}/></button></div></section>
-  <section className="mt-7 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">{stats.map(({icon:Icon,label,value,color})=><div key={label} className="rounded-2xl border border-orange-100 bg-white p-5"><div className={`mb-4 grid h-10 w-10 place-items-center rounded-xl ${color}`}><Icon size={20}/></div><p className="text-sm font-semibold text-stone-400">{label}</p><p className="mt-1 text-2xl font-black">{value}</p></div>)}</section>
-  <section className="mt-7 grid gap-4 lg:grid-cols-3">{[{icon:BookOpen,title:'히라가나',rate:hira,done:`${progress.learned.length}/46`,tab:'hiragana' as Tab,color:'from-rose-400 to-orange-300'},{icon:Languages,title:'가타카나',rate:kata,done:`${kataBasic}/46`,tab:'katakana' as Tab,color:'from-blue-400 to-cyan-300'},{icon:MessageCircle,title:'일상 회화',rate:conv,done:`${progress.conversationLearned.length}/70`,tab:'conversation' as Tab,color:'from-violet-400 to-fuchsia-300'}].map(({icon:Icon,title,rate,done,tab,color})=><button key={title} onClick={()=>setTab(tab)} className="rounded-3xl border border-orange-100 bg-white p-6 text-left transition hover:-translate-y-1 hover:shadow-soft"><div className="flex items-center justify-between"><span className="grid h-11 w-11 place-items-center rounded-xl bg-stone-100"><Icon size={21}/></span><span className="text-sm font-black text-stone-400">{done}</span></div><h2 className="mt-5 text-xl font-black">{title} 학습</h2><div className="mt-4 h-2 rounded-full bg-stone-100"><div className={`h-full rounded-full bg-gradient-to-r ${color}`} style={{width:`${rate}%`}}/></div><p className="mt-2 text-sm font-black text-stone-400">완료율 {rate}%</p></button>)}</section>
-  <div className="mt-6 text-right"><button onClick={()=>{if(confirm('모든 학습 기록을 초기화할까요?'))reset()}} className="text-xs font-semibold text-stone-300 hover:text-red-400">학습 기록 초기화</button></div>
- </main>
+type Props={progress:Progress;todayLearnedCount:number;setTab:(tab:Tab)=>void;reset:()=>void;resume:ResumeTarget|null;onContinue:()=>void}
+export function Home({progress,todayLearnedCount,setTab,reset,resume,onContinue}:Props){
+  const mistakes=Object.values(progress.quizItems).filter(item=>!item.lastCorrect).length
+  const kata=progress.katakanaLearned.filter(char=>katakanaBasic.some(item=>item.char===char)).length
+  const sections=[{icon:BookOpen,title:'히라가나',description:'문자표에서 고르고, 한 글자씩 익혀요.',done:progress.learned.length,total:46,tab:'hiragana' as Tab},
+    {icon:Languages,title:'가타카나',description:'기본 문자부터 외래어까지 연습해요.',done:kata,total:46,tab:'katakana' as Tab},
+    {icon:MessageCircle,title:'일상 회화',description:'가나 읽기와 음성으로 문장을 익혀요.',done:progress.conversationLearned.length,total:70,tab:'conversation' as Tab}]
+  return <main className="mx-auto max-w-7xl px-5 pb-12 pt-7 md:pt-9">
+    <section className="rounded-3xl border border-rose-100 bg-gradient-to-br from-rose-50 to-orange-50 p-6 md:p-8">
+      <p className="text-sm font-bold text-rose-600">매일 조금씩, 일본어와 가까워져요</p>
+      <h1 className="mt-2 text-3xl font-black md:text-4xl">히라가나 먼저 시작해 볼까요?</h1>
+      <p className="mt-3 max-w-2xl text-sm leading-relaxed text-stone-600">あ부터 ん까지, 원하는 문자를 자유롭게 골라 듣고 익혀 보세요. 이전·다음 버튼으로 한 글자씩 공부해도 좋아요.</p>
+      <div className="mt-5 flex flex-wrap gap-2">
+        <button onClick={()=>setTab('hiragana')} className="inline-flex items-center gap-2 rounded-2xl bg-rose-500 px-5 py-3 text-sm font-black text-white hover:bg-rose-600">히라가나 시작하기<ArrowRight size={17}/></button>
+        <button className="writing-button" onClick={()=>setTab('pronunciation')}>발음 길잡이</button>
+      </div>
+      {resume&&<div className="mt-5 flex flex-col items-start justify-between gap-3 rounded-2xl border border-rose-100 bg-white/70 p-4 sm:flex-row sm:items-center"><div><p className="text-xs font-bold text-stone-500">마지막으로 공부한 곳</p><p className="mt-1 text-sm font-bold text-stone-700">{resume.label}</p></div><button className="writing-button shrink-0" onClick={onContinue}>이어서 학습<ArrowRight size={15}/></button></div>}
+    </section>
+    <section className="mt-5 grid grid-cols-2 gap-3 lg:grid-cols-4" aria-label="학습 요약">
+      {[{icon:BookOpen,label:'오늘 학습 표시',value:`${todayLearnedCount}개`},{icon:Brain,label:'퀴즈 정답률',value:progress.quizTotal?`${Math.round(progress.quizCorrect/progress.quizTotal*100)}%`:'기록 없음'},
+        {icon:Flame,label:'연속 학습',value:progress.streak?`${progress.streak}일`:'시작 전'},{icon:RotateCcw,label:'복습할 오답',value:`${mistakes}개`}].map(({icon:Icon,label,value})=><div key={label} className="rounded-2xl border border-orange-100 bg-white p-4"><div className="flex items-center gap-2 text-xs font-bold text-stone-600"><Icon size={15}/>{label}</div><p className="mt-2 text-xl font-black">{value}</p></div>)}
+    </section>
+    <section className="mt-6 grid gap-3 md:grid-cols-3">{sections.map(({icon:Icon,title,description,done,total,tab})=><button key={tab} onClick={()=>setTab(tab)} className="rounded-2xl border border-orange-100 bg-white p-5 text-left hover:border-rose-200 hover:shadow-soft"><div className="flex items-center justify-between"><Icon size={21} className="text-rose-500"/><span className="text-xs font-bold text-stone-600">학습 표시 {done}/{total}</span></div><h2 className="mt-3 text-lg font-black">{title}</h2><p className="mt-1 text-sm leading-relaxed text-stone-600">{description}</p></button>)}</section>
+    <section className="mt-5 flex flex-col justify-between gap-3 rounded-2xl border border-orange-100 bg-white p-5 sm:flex-row sm:items-center"><div><h2 className="font-black">배운 내용을 기억하고 있나요?</h2><p className="mt-1 text-sm text-stone-600">배운 범위로 짧게 확인하거나, 틀린 항목을 다시 풀어 보세요.</p></div><div className="flex shrink-0 gap-2"><button className="writing-button" onClick={()=>setTab('quiz')}>퀴즈</button><button className="writing-button primary" onClick={()=>setTab('review')}>오답 복습{mistakes?` ${mistakes}개`:''}</button></div></section>
+    <div className="mt-5 flex flex-wrap gap-2"><button className="writing-button" onClick={()=>setTab('handwriting')}>직접 그려보기</button><span className="self-center text-xs text-stone-600">가이드 따라 쓰기는 あ・い・う・え・お 5자를 지원해요.</span></div>
+    <details className="mt-6 rounded-2xl border border-orange-100 bg-white p-5"><summary className="cursor-pointer text-sm font-bold">상세 학습 기록 및 설정</summary>
+      <p className="mt-3 text-sm text-stone-600">학습 표시는 공부한 문자와 문장을 직접 완료로 표시한 기록이에요. 퀴즈 정답률과 손글씨 연습 점수는 따로 확인할 수 있어요.</p>
+      <WritingStats stats={progress.handwriting}/>
+      <button onClick={()=>{if(confirm('기존 완료·퀴즈·손글씨 기록과 이어하기 위치를 모두 초기화할까요?'))reset()}} className="mt-5 rounded-xl border border-stone-200 px-3 py-2 text-xs font-bold text-stone-600">학습 기록 초기화</button>
+    </details>
+  </main>
 }

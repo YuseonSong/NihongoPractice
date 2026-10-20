@@ -4,6 +4,21 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { margin: 0; min-width: 320px; min-height: 100vh; -webkit-font-smoothing: antialiased; }
+body { margin: 0; min-width: 320px; min-height: 100vh; min-height: 100dvh; padding: 0 env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px); background: #fffaf5; -webkit-font-smoothing: antialiased; }
+#root > .min-h-screen { min-height: 100dvh; }
+.app-header { padding-top: env(safe-area-inset-top, 0px); }
+.mobile-bottom-nav { left: calc(.5rem + env(safe-area-inset-left, 0px)); right: calc(.5rem + env(safe-area-inset-right, 0px)); bottom: calc(.5rem + env(safe-area-inset-bottom, 0px)); }
+.mobile-more-overlay { padding: calc(.75rem + env(safe-area-inset-top, 0px)) calc(.75rem + env(safe-area-inset-right, 0px)) calc(6rem + env(safe-area-inset-bottom, 0px)) calc(.75rem + env(safe-area-inset-left, 0px)); }
+.mobile-more-sheet { max-height: min(75vh, calc(100vh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px) - 7.5rem)); max-height: min(75dvh, calc(100dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px) - 7.5rem)); overscroll-behavior: contain; }
 button { -webkit-tap-highlight-color: transparent; }
 button:focus-visible { outline: 3px solid #fda4af; outline-offset: 3px; }
+
+.writing-panel { @apply rounded-3xl border border-orange-100 bg-white p-5 sm:p-6; }
+.writing-button { @apply inline-flex items-center justify-center gap-2 rounded-xl border border-orange-100 bg-orange-50 px-4 py-2 text-sm font-bold text-stone-600 transition hover:bg-orange-100 disabled:cursor-not-allowed disabled:opacity-40; }
+.writing-button.primary { @apply border-rose-400 bg-rose-400 text-white hover:bg-rose-500; }
+.writing-select { @apply mt-2 block w-full rounded-xl border border-orange-100 bg-orange-50 p-3 text-sm; }
+.writing-canvas { display:block; width:100%; aspect-ratio:1; touch-action:none; -webkit-touch-callout:none; -webkit-user-select:none; user-select:none; background:#fffcf8; border:1px solid #fed7aa; border-radius:1rem; cursor:crosshair; }
+.audio-controls { @apply mt-4 text-stone-600; }
+.audio-button { @apply inline-flex items-center justify-center gap-1 rounded-xl border border-blue-100 bg-blue-50 px-3 py-2 text-xs font-bold text-blue-700 transition hover:bg-blue-100; }
+.audio-button.active { @apply border-blue-400 bg-blue-100 text-blue-800; }
+.audio-controls.compact .audio-button { @apply rounded-lg px-2 py-1.5 text-[10px]; }

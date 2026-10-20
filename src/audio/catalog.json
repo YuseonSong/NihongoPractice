@@ -1,0 +1,2001 @@
+{
+  "schemaVersion": 1,
+  "scripts": {
+    "kana_a": {
+      "id": "kana_a",
+      "kind": "kana",
+      "text": "あ",
+      "reading": "あ",
+      "synthesisText": "ア'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_i": {
+      "id": "kana_i",
+      "kind": "kana",
+      "text": "い",
+      "reading": "い",
+      "synthesisText": "イ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_u": {
+      "id": "kana_u",
+      "kind": "kana",
+      "text": "う",
+      "reading": "う",
+      "synthesisText": "ウ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_e": {
+      "id": "kana_e",
+      "kind": "kana",
+      "text": "え",
+      "reading": "え",
+      "synthesisText": "エ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_o": {
+      "id": "kana_o",
+      "kind": "kana",
+      "text": "お",
+      "reading": "お",
+      "synthesisText": "オ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ka": {
+      "id": "kana_ka",
+      "kind": "kana",
+      "text": "か",
+      "reading": "か",
+      "synthesisText": "カ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ki": {
+      "id": "kana_ki",
+      "kind": "kana",
+      "text": "き",
+      "reading": "き",
+      "synthesisText": "キ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ku": {
+      "id": "kana_ku",
+      "kind": "kana",
+      "text": "く",
+      "reading": "く",
+      "synthesisText": "ク'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ke": {
+      "id": "kana_ke",
+      "kind": "kana",
+      "text": "け",
+      "reading": "け",
+      "synthesisText": "ケ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ko": {
+      "id": "kana_ko",
+      "kind": "kana",
+      "text": "こ",
+      "reading": "こ",
+      "synthesisText": "コ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_sa": {
+      "id": "kana_sa",
+      "kind": "kana",
+      "text": "さ",
+      "reading": "さ",
+      "synthesisText": "サ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_shi": {
+      "id": "kana_shi",
+      "kind": "kana",
+      "text": "し",
+      "reading": "し",
+      "synthesisText": "シ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_su": {
+      "id": "kana_su",
+      "kind": "kana",
+      "text": "す",
+      "reading": "す",
+      "synthesisText": "ス'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_se": {
+      "id": "kana_se",
+      "kind": "kana",
+      "text": "せ",
+      "reading": "せ",
+      "synthesisText": "セ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_so": {
+      "id": "kana_so",
+      "kind": "kana",
+      "text": "そ",
+      "reading": "そ",
+      "synthesisText": "ソ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ta": {
+      "id": "kana_ta",
+      "kind": "kana",
+      "text": "た",
+      "reading": "た",
+      "synthesisText": "タ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_chi": {
+      "id": "kana_chi",
+      "kind": "kana",
+      "text": "ち",
+      "reading": "ち",
+      "synthesisText": "チ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_tsu": {
+      "id": "kana_tsu",
+      "kind": "kana",
+      "text": "つ",
+      "reading": "つ",
+      "synthesisText": "ツ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_te": {
+      "id": "kana_te",
+      "kind": "kana",
+      "text": "て",
+      "reading": "て",
+      "synthesisText": "テ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_to": {
+      "id": "kana_to",
+      "kind": "kana",
+      "text": "と",
+      "reading": "と",
+      "synthesisText": "ト'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_na": {
+      "id": "kana_na",
+      "kind": "kana",
+      "text": "な",
+      "reading": "な",
+      "synthesisText": "ナ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ni": {
+      "id": "kana_ni",
+      "kind": "kana",
+      "text": "に",
+      "reading": "に",
+      "synthesisText": "ニ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_nu": {
+      "id": "kana_nu",
+      "kind": "kana",
+      "text": "ぬ",
+      "reading": "ぬ",
+      "synthesisText": "ヌ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ne": {
+      "id": "kana_ne",
+      "kind": "kana",
+      "text": "ね",
+      "reading": "ね",
+      "synthesisText": "ネ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_no": {
+      "id": "kana_no",
+      "kind": "kana",
+      "text": "の",
+      "reading": "の",
+      "synthesisText": "ノ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ha": {
+      "id": "kana_ha",
+      "kind": "kana",
+      "text": "は",
+      "reading": "は",
+      "synthesisText": "ハ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_hi": {
+      "id": "kana_hi",
+      "kind": "kana",
+      "text": "ひ",
+      "reading": "ひ",
+      "synthesisText": "ヒ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_fu": {
+      "id": "kana_fu",
+      "kind": "kana",
+      "text": "ふ",
+      "reading": "ふ",
+      "synthesisText": "フ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_he": {
+      "id": "kana_he",
+      "kind": "kana",
+      "text": "へ",
+      "reading": "へ",
+      "synthesisText": "ヘ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ho": {
+      "id": "kana_ho",
+      "kind": "kana",
+      "text": "ほ",
+      "reading": "ほ",
+      "synthesisText": "ホ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ma": {
+      "id": "kana_ma",
+      "kind": "kana",
+      "text": "ま",
+      "reading": "ま",
+      "synthesisText": "マ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_mi": {
+      "id": "kana_mi",
+      "kind": "kana",
+      "text": "み",
+      "reading": "み",
+      "synthesisText": "ミ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_mu": {
+      "id": "kana_mu",
+      "kind": "kana",
+      "text": "む",
+      "reading": "む",
+      "synthesisText": "ム'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_me": {
+      "id": "kana_me",
+      "kind": "kana",
+      "text": "め",
+      "reading": "め",
+      "synthesisText": "メ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_mo": {
+      "id": "kana_mo",
+      "kind": "kana",
+      "text": "も",
+      "reading": "も",
+      "synthesisText": "モ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ya": {
+      "id": "kana_ya",
+      "kind": "kana",
+      "text": "や",
+      "reading": "や",
+      "synthesisText": "ヤ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_yu": {
+      "id": "kana_yu",
+      "kind": "kana",
+      "text": "ゆ",
+      "reading": "ゆ",
+      "synthesisText": "ユ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_yo": {
+      "id": "kana_yo",
+      "kind": "kana",
+      "text": "よ",
+      "reading": "よ",
+      "synthesisText": "ヨ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ra": {
+      "id": "kana_ra",
+      "kind": "kana",
+      "text": "ら",
+      "reading": "ら",
+      "synthesisText": "ラ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ri": {
+      "id": "kana_ri",
+      "kind": "kana",
+      "text": "り",
+      "reading": "り",
+      "synthesisText": "リ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ru": {
+      "id": "kana_ru",
+      "kind": "kana",
+      "text": "る",
+      "reading": "る",
+      "synthesisText": "ル'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_re": {
+      "id": "kana_re",
+      "kind": "kana",
+      "text": "れ",
+      "reading": "れ",
+      "synthesisText": "レ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ro": {
+      "id": "kana_ro",
+      "kind": "kana",
+      "text": "ろ",
+      "reading": "ろ",
+      "synthesisText": "ロ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_wa": {
+      "id": "kana_wa",
+      "kind": "kana",
+      "text": "わ",
+      "reading": "わ",
+      "synthesisText": "ワ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_n": {
+      "id": "kana_n",
+      "kind": "kana",
+      "text": "ん",
+      "reading": "ん",
+      "synthesisText": "ン'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "vocab_30a2_30a4_30b9": {
+      "id": "vocab_30a2_30a4_30b9",
+      "kind": "vocabulary",
+      "text": "アイス",
+      "reading": "アイス",
+      "synthesisText": "アイス",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: aisu"
+    },
+    "vocab_30a4_30f3_30af": {
+      "id": "vocab_30a4_30f3_30af",
+      "kind": "vocabulary",
+      "text": "インク",
+      "reading": "インク",
+      "synthesisText": "インク",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: inku"
+    },
+    "vocab_30a6_30a4_30eb_30b9": {
+      "id": "vocab_30a6_30a4_30eb_30b9",
+      "kind": "vocabulary",
+      "text": "ウイルス",
+      "reading": "ウイルス",
+      "synthesisText": "ウイルス",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: uirusu"
+    },
+    "vocab_30a8_30a2_30b3_30f3": {
+      "id": "vocab_30a8_30a2_30b3_30f3",
+      "kind": "vocabulary",
+      "text": "エアコン",
+      "reading": "エアコン",
+      "synthesisText": "エアコン",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: eakon"
+    },
+    "vocab_30aa_30ec_30f3_30b8": {
+      "id": "vocab_30aa_30ec_30f3_30b8",
+      "kind": "vocabulary",
+      "text": "オレンジ",
+      "reading": "オレンジ",
+      "synthesisText": "オレンジ",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: orenji"
+    },
+    "vocab_30ab_30e1_30e9": {
+      "id": "vocab_30ab_30e1_30e9",
+      "kind": "vocabulary",
+      "text": "カメラ",
+      "reading": "カメラ",
+      "synthesisText": "カメラ",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: kamera"
+    },
+    "vocab_30ad_30a6_30a4": {
+      "id": "vocab_30ad_30a6_30a4",
+      "kind": "vocabulary",
+      "text": "キウイ",
+      "reading": "キウイ",
+      "synthesisText": "キウイ",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: kiui"
+    },
+    "vocab_30af_30e9_30b9": {
+      "id": "vocab_30af_30e9_30b9",
+      "kind": "vocabulary",
+      "text": "クラス",
+      "reading": "クラス",
+      "synthesisText": "クラス",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: kurasu"
+    },
+    "vocab_30b1_30fc_30ad": {
+      "id": "vocab_30b1_30fc_30ad",
+      "kind": "vocabulary",
+      "text": "ケーキ",
+      "reading": "ケーキ",
+      "synthesisText": "ケーキ",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: keeki"
+    },
+    "vocab_30b3_30fc_30d2_30fc": {
+      "id": "vocab_30b3_30fc_30d2_30fc",
+      "kind": "vocabulary",
+      "text": "コーヒー",
+      "reading": "コーヒー",
+      "synthesisText": "コーヒー",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: koohii"
+    },
+    "vocab_30b5_30e9_30c0": {
+      "id": "vocab_30b5_30e9_30c0",
+      "kind": "vocabulary",
+      "text": "サラダ",
+      "reading": "サラダ",
+      "synthesisText": "サラダ",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: sarada"
+    },
+    "vocab_30b7_30e3_30c4": {
+      "id": "vocab_30b7_30e3_30c4",
+      "kind": "vocabulary",
+      "text": "シャツ",
+      "reading": "シャツ",
+      "synthesisText": "シャツ",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: shatsu"
+    },
+    "vocab_30b9_30fc_30d7": {
+      "id": "vocab_30b9_30fc_30d7",
+      "kind": "vocabulary",
+      "text": "スープ",
+      "reading": "スープ",
+      "synthesisText": "スープ",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: suupu"
+    },
+    "vocab_30bb_30fc_30bf_30fc": {
+      "id": "vocab_30bb_30fc_30bf_30fc",
+      "kind": "vocabulary",
+      "text": "セーター",
+      "reading": "セーター",
+      "synthesisText": "セーター",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: seetaa"
+    },
+    "vocab_30bd_30d5_30a1": {
+      "id": "vocab_30bd_30d5_30a1",
+      "kind": "vocabulary",
+      "text": "ソファ",
+      "reading": "ソファ",
+      "synthesisText": "ソファ",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: sofa"
+    },
+    "vocab_30bf_30af_30b7_30fc": {
+      "id": "vocab_30bf_30af_30b7_30fc",
+      "kind": "vocabulary",
+      "text": "タクシー",
+      "reading": "タクシー",
+      "synthesisText": "タクシー",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: takushii"
+    },
+    "vocab_30c1_30fc_30ba": {
+      "id": "vocab_30c1_30fc_30ba",
+      "kind": "vocabulary",
+      "text": "チーズ",
+      "reading": "チーズ",
+      "synthesisText": "チーズ",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: chiizu"
+    },
+    "vocab_30c4_30a2_30fc": {
+      "id": "vocab_30c4_30a2_30fc",
+      "kind": "vocabulary",
+      "text": "ツアー",
+      "reading": "ツアー",
+      "synthesisText": "ツアー",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: tsuaa"
+    },
+    "vocab_30c6_30ec_30d3": {
+      "id": "vocab_30c6_30ec_30d3",
+      "kind": "vocabulary",
+      "text": "テレビ",
+      "reading": "テレビ",
+      "synthesisText": "テレビ",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: terebi"
+    },
+    "vocab_30c8_30de_30c8": {
+      "id": "vocab_30c8_30de_30c8",
+      "kind": "vocabulary",
+      "text": "トマト",
+      "reading": "トマト",
+      "synthesisText": "トマト",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: tomato"
+    },
+    "vocab_30ca_30a4_30d5": {
+      "id": "vocab_30ca_30a4_30d5",
+      "kind": "vocabulary",
+      "text": "ナイフ",
+      "reading": "ナイフ",
+      "synthesisText": "ナイフ",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: naifu"
+    },
+    "vocab_30cb_30e5_30fc_30b9": {
+      "id": "vocab_30cb_30e5_30fc_30b9",
+      "kind": "vocabulary",
+      "text": "ニュース",
+      "reading": "ニュース",
+      "synthesisText": "ニュース",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: nyuusu"
+    },
+    "vocab_30cc_30fc_30c9_30eb": {
+      "id": "vocab_30cc_30fc_30c9_30eb",
+      "kind": "vocabulary",
+      "text": "ヌードル",
+      "reading": "ヌードル",
+      "synthesisText": "ヌードル",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: nuudoru"
+    },
+    "vocab_30cd_30af_30bf_30a4": {
+      "id": "vocab_30cd_30af_30bf_30a4",
+      "kind": "vocabulary",
+      "text": "ネクタイ",
+      "reading": "ネクタイ",
+      "synthesisText": "ネクタイ",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: nekutai"
+    },
+    "vocab_30ce_30fc_30c8": {
+      "id": "vocab_30ce_30fc_30c8",
+      "kind": "vocabulary",
+      "text": "ノート",
+      "reading": "ノート",
+      "synthesisText": "ノート",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: nooto"
+    },
+    "vocab_30cf_30f3_30d0_30fc_30ac_30fc": {
+      "id": "vocab_30cf_30f3_30d0_30fc_30ac_30fc",
+      "kind": "vocabulary",
+      "text": "ハンバーガー",
+      "reading": "ハンバーガー",
+      "synthesisText": "ハンバーガー",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: hanbaagaa"
+    },
+    "vocab_30d2_30f3_30c8": {
+      "id": "vocab_30d2_30f3_30c8",
+      "kind": "vocabulary",
+      "text": "ヒント",
+      "reading": "ヒント",
+      "synthesisText": "ヒント",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: hinto"
+    },
+    "vocab_30d5_30a9_30fc_30af": {
+      "id": "vocab_30d5_30a9_30fc_30af",
+      "kind": "vocabulary",
+      "text": "フォーク",
+      "reading": "フォーク",
+      "synthesisText": "フォーク",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: fooku"
+    },
+    "vocab_30d8_30eb_30e1_30c3_30c8": {
+      "id": "vocab_30d8_30eb_30e1_30c3_30c8",
+      "kind": "vocabulary",
+      "text": "ヘルメット",
+      "reading": "ヘルメット",
+      "synthesisText": "ヘルメット",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: herumetto"
+    },
+    "vocab_30db_30c6_30eb": {
+      "id": "vocab_30db_30c6_30eb",
+      "kind": "vocabulary",
+      "text": "ホテル",
+      "reading": "ホテル",
+      "synthesisText": "ホテル",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: hoteru"
+    },
+    "vocab_30de_30b9_30af": {
+      "id": "vocab_30de_30b9_30af",
+      "kind": "vocabulary",
+      "text": "マスク",
+      "reading": "マスク",
+      "synthesisText": "マスク",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: masuku"
+    },
+    "vocab_30df_30eb_30af": {
+      "id": "vocab_30df_30eb_30af",
+      "kind": "vocabulary",
+      "text": "ミルク",
+      "reading": "ミルク",
+      "synthesisText": "ミルク",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: miruku"
+    },
+    "vocab_30e0_30fc_30c9": {
+      "id": "vocab_30e0_30fc_30c9",
+      "kind": "vocabulary",
+      "text": "ムード",
+      "reading": "ムード",
+      "synthesisText": "ムード",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: muudo"
+    },
+    "vocab_30e1_30cb_30e5_30fc": {
+      "id": "vocab_30e1_30cb_30e5_30fc",
+      "kind": "vocabulary",
+      "text": "メニュー",
+      "reading": "メニュー",
+      "synthesisText": "メニュー",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: menyuu"
+    },
+    "vocab_30e2_30c7_30eb": {
+      "id": "vocab_30e2_30c7_30eb",
+      "kind": "vocabulary",
+      "text": "モデル",
+      "reading": "モデル",
+      "synthesisText": "モデル",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: moderu"
+    },
+    "vocab_30e4_30fc_30c9": {
+      "id": "vocab_30e4_30fc_30c9",
+      "kind": "vocabulary",
+      "text": "ヤード",
+      "reading": "ヤード",
+      "synthesisText": "ヤード",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: yaado"
+    },
+    "vocab_30e6_30fc_30e2_30a2": {
+      "id": "vocab_30e6_30fc_30e2_30a2",
+      "kind": "vocabulary",
+      "text": "ユーモア",
+      "reading": "ユーモア",
+      "synthesisText": "ユーモア",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: yuumoa"
+    },
+    "vocab_30e8_30fc_30b0_30eb_30c8": {
+      "id": "vocab_30e8_30fc_30b0_30eb_30c8",
+      "kind": "vocabulary",
+      "text": "ヨーグルト",
+      "reading": "ヨーグルト",
+      "synthesisText": "ヨーグルト",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: yooguruto"
+    },
+    "vocab_30e9_30b8_30aa": {
+      "id": "vocab_30e9_30b8_30aa",
+      "kind": "vocabulary",
+      "text": "ラジオ",
+      "reading": "ラジオ",
+      "synthesisText": "ラジオ",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: rajio"
+    },
+    "vocab_30ea_30e2_30b3_30f3": {
+      "id": "vocab_30ea_30e2_30b3_30f3",
+      "kind": "vocabulary",
+      "text": "リモコン",
+      "reading": "リモコン",
+      "synthesisText": "リモコン",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: rimokon"
+    },
+    "vocab_30eb_30fc_30eb": {
+      "id": "vocab_30eb_30fc_30eb",
+      "kind": "vocabulary",
+      "text": "ルール",
+      "reading": "ルール",
+      "synthesisText": "ルール",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: ruuru"
+    },
+    "vocab_30ec_30e2_30f3": {
+      "id": "vocab_30ec_30e2_30f3",
+      "kind": "vocabulary",
+      "text": "レモン",
+      "reading": "レモン",
+      "synthesisText": "レモン",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: remon"
+    },
+    "vocab_30ed_30dc_30c3_30c8": {
+      "id": "vocab_30ed_30dc_30c3_30c8",
+      "kind": "vocabulary",
+      "text": "ロボット",
+      "reading": "ロボット",
+      "synthesisText": "ロボット",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: robotto"
+    },
+    "vocab_30ef_30a4_30f3": {
+      "id": "vocab_30ef_30a4_30f3",
+      "kind": "vocabulary",
+      "text": "ワイン",
+      "reading": "ワイン",
+      "synthesisText": "ワイン",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: wain"
+    },
+    "vocab_30d1_30f3": {
+      "id": "vocab_30d1_30f3",
+      "kind": "vocabulary",
+      "text": "パン",
+      "reading": "パン",
+      "synthesisText": "パン",
+      "readingNote": "원본 카타카나 표기 확인. 학습 데이터 로마자: pan"
+    },
+    "kana_ga": {
+      "id": "kana_ga",
+      "kind": "kana",
+      "text": "が",
+      "reading": "が",
+      "synthesisText": "ガ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_gi": {
+      "id": "kana_gi",
+      "kind": "kana",
+      "text": "ぎ",
+      "reading": "ぎ",
+      "synthesisText": "ギ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_gu": {
+      "id": "kana_gu",
+      "kind": "kana",
+      "text": "ぐ",
+      "reading": "ぐ",
+      "synthesisText": "グ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ge": {
+      "id": "kana_ge",
+      "kind": "kana",
+      "text": "げ",
+      "reading": "げ",
+      "synthesisText": "ゲ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_go": {
+      "id": "kana_go",
+      "kind": "kana",
+      "text": "ご",
+      "reading": "ご",
+      "synthesisText": "ゴ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_za": {
+      "id": "kana_za",
+      "kind": "kana",
+      "text": "ざ",
+      "reading": "ざ",
+      "synthesisText": "ザ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ji": {
+      "id": "kana_ji",
+      "kind": "kana",
+      "text": "じ",
+      "reading": "じ",
+      "synthesisText": "ジ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_zu": {
+      "id": "kana_zu",
+      "kind": "kana",
+      "text": "ず",
+      "reading": "ず",
+      "synthesisText": "ズ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ze": {
+      "id": "kana_ze",
+      "kind": "kana",
+      "text": "ぜ",
+      "reading": "ぜ",
+      "synthesisText": "ゼ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_zo": {
+      "id": "kana_zo",
+      "kind": "kana",
+      "text": "ぞ",
+      "reading": "ぞ",
+      "synthesisText": "ゾ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_da": {
+      "id": "kana_da",
+      "kind": "kana",
+      "text": "だ",
+      "reading": "だ",
+      "synthesisText": "ダ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_de": {
+      "id": "kana_de",
+      "kind": "kana",
+      "text": "で",
+      "reading": "で",
+      "synthesisText": "デ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_do": {
+      "id": "kana_do",
+      "kind": "kana",
+      "text": "ど",
+      "reading": "ど",
+      "synthesisText": "ド'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ba": {
+      "id": "kana_ba",
+      "kind": "kana",
+      "text": "ば",
+      "reading": "ば",
+      "synthesisText": "バ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_bi": {
+      "id": "kana_bi",
+      "kind": "kana",
+      "text": "び",
+      "reading": "び",
+      "synthesisText": "ビ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_bu": {
+      "id": "kana_bu",
+      "kind": "kana",
+      "text": "ぶ",
+      "reading": "ぶ",
+      "synthesisText": "ブ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_be": {
+      "id": "kana_be",
+      "kind": "kana",
+      "text": "べ",
+      "reading": "べ",
+      "synthesisText": "ベ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_bo": {
+      "id": "kana_bo",
+      "kind": "kana",
+      "text": "ぼ",
+      "reading": "ぼ",
+      "synthesisText": "ボ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_pa": {
+      "id": "kana_pa",
+      "kind": "kana",
+      "text": "ぱ",
+      "reading": "ぱ",
+      "synthesisText": "パ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_pi": {
+      "id": "kana_pi",
+      "kind": "kana",
+      "text": "ぴ",
+      "reading": "ぴ",
+      "synthesisText": "ピ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_pu": {
+      "id": "kana_pu",
+      "kind": "kana",
+      "text": "ぷ",
+      "reading": "ぷ",
+      "synthesisText": "プ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_pe": {
+      "id": "kana_pe",
+      "kind": "kana",
+      "text": "ぺ",
+      "reading": "ぺ",
+      "synthesisText": "ペ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_po": {
+      "id": "kana_po",
+      "kind": "kana",
+      "text": "ぽ",
+      "reading": "ぽ",
+      "synthesisText": "ポ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_kya": {
+      "id": "kana_kya",
+      "kind": "kana",
+      "text": "きゃ",
+      "reading": "きゃ",
+      "synthesisText": "キャ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_kyu": {
+      "id": "kana_kyu",
+      "kind": "kana",
+      "text": "きゅ",
+      "reading": "きゅ",
+      "synthesisText": "キュ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_kyo": {
+      "id": "kana_kyo",
+      "kind": "kana",
+      "text": "きょ",
+      "reading": "きょ",
+      "synthesisText": "キョ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_sha": {
+      "id": "kana_sha",
+      "kind": "kana",
+      "text": "しゃ",
+      "reading": "しゃ",
+      "synthesisText": "シャ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_shu": {
+      "id": "kana_shu",
+      "kind": "kana",
+      "text": "しゅ",
+      "reading": "しゅ",
+      "synthesisText": "シュ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_sho": {
+      "id": "kana_sho",
+      "kind": "kana",
+      "text": "しょ",
+      "reading": "しょ",
+      "synthesisText": "ショ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_cha": {
+      "id": "kana_cha",
+      "kind": "kana",
+      "text": "ちゃ",
+      "reading": "ちゃ",
+      "synthesisText": "チャ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_chu": {
+      "id": "kana_chu",
+      "kind": "kana",
+      "text": "ちゅ",
+      "reading": "ちゅ",
+      "synthesisText": "チュ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_cho": {
+      "id": "kana_cho",
+      "kind": "kana",
+      "text": "ちょ",
+      "reading": "ちょ",
+      "synthesisText": "チョ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_nya": {
+      "id": "kana_nya",
+      "kind": "kana",
+      "text": "にゃ",
+      "reading": "にゃ",
+      "synthesisText": "ニャ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_nyu": {
+      "id": "kana_nyu",
+      "kind": "kana",
+      "text": "にゅ",
+      "reading": "にゅ",
+      "synthesisText": "ニュ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_nyo": {
+      "id": "kana_nyo",
+      "kind": "kana",
+      "text": "にょ",
+      "reading": "にょ",
+      "synthesisText": "ニョ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_hya": {
+      "id": "kana_hya",
+      "kind": "kana",
+      "text": "ひゃ",
+      "reading": "ひゃ",
+      "synthesisText": "ヒャ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_hyu": {
+      "id": "kana_hyu",
+      "kind": "kana",
+      "text": "ひゅ",
+      "reading": "ひゅ",
+      "synthesisText": "ヒュ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_hyo": {
+      "id": "kana_hyo",
+      "kind": "kana",
+      "text": "ひょ",
+      "reading": "ひょ",
+      "synthesisText": "ヒョ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_mya": {
+      "id": "kana_mya",
+      "kind": "kana",
+      "text": "みゃ",
+      "reading": "みゃ",
+      "synthesisText": "ミャ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_myu": {
+      "id": "kana_myu",
+      "kind": "kana",
+      "text": "みゅ",
+      "reading": "みゅ",
+      "synthesisText": "ミュ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_myo": {
+      "id": "kana_myo",
+      "kind": "kana",
+      "text": "みょ",
+      "reading": "みょ",
+      "synthesisText": "ミョ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_rya": {
+      "id": "kana_rya",
+      "kind": "kana",
+      "text": "りゃ",
+      "reading": "りゃ",
+      "synthesisText": "リャ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ryu": {
+      "id": "kana_ryu",
+      "kind": "kana",
+      "text": "りゅ",
+      "reading": "りゅ",
+      "synthesisText": "リュ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ryo": {
+      "id": "kana_ryo",
+      "kind": "kana",
+      "text": "りょ",
+      "reading": "りょ",
+      "synthesisText": "リョ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_gya": {
+      "id": "kana_gya",
+      "kind": "kana",
+      "text": "ぎゃ",
+      "reading": "ぎゃ",
+      "synthesisText": "ギャ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_gyu": {
+      "id": "kana_gyu",
+      "kind": "kana",
+      "text": "ぎゅ",
+      "reading": "ぎゅ",
+      "synthesisText": "ギュ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_gyo": {
+      "id": "kana_gyo",
+      "kind": "kana",
+      "text": "ぎょ",
+      "reading": "ぎょ",
+      "synthesisText": "ギョ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ja": {
+      "id": "kana_ja",
+      "kind": "kana",
+      "text": "じゃ",
+      "reading": "じゃ",
+      "synthesisText": "ジャ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_ju": {
+      "id": "kana_ju",
+      "kind": "kana",
+      "text": "じゅ",
+      "reading": "じゅ",
+      "synthesisText": "ジュ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_jo": {
+      "id": "kana_jo",
+      "kind": "kana",
+      "text": "じょ",
+      "reading": "じょ",
+      "synthesisText": "ジョ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_bya": {
+      "id": "kana_bya",
+      "kind": "kana",
+      "text": "びゃ",
+      "reading": "びゃ",
+      "synthesisText": "ビャ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_byu": {
+      "id": "kana_byu",
+      "kind": "kana",
+      "text": "びゅ",
+      "reading": "びゅ",
+      "synthesisText": "ビュ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_byo": {
+      "id": "kana_byo",
+      "kind": "kana",
+      "text": "びょ",
+      "reading": "びょ",
+      "synthesisText": "ビョ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_pya": {
+      "id": "kana_pya",
+      "kind": "kana",
+      "text": "ぴゃ",
+      "reading": "ぴゃ",
+      "synthesisText": "ピャ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_pyu": {
+      "id": "kana_pyu",
+      "kind": "kana",
+      "text": "ぴゅ",
+      "reading": "ぴゅ",
+      "synthesisText": "ピュ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "kana_pyo": {
+      "id": "kana_pyo",
+      "kind": "kana",
+      "text": "ぴょ",
+      "reading": "ぴょ",
+      "synthesisText": "ピョ'",
+      "readingNote": "고립된 모라를 명시적인 엔진 가나 입력으로 합성하여 は/へ를 조사로 읽지 않도록 합니다. を/ヲ는 お/オ, ぢ/ヂ는 じ/ジ, づ/ヅ는 ず/ズ와 음성 공유. ん은 문맥에 따라 달라집니다."
+    },
+    "conversation_greetings_1": {
+      "id": "conversation_greetings_1",
+      "kind": "conversations",
+      "text": "おはようございます。",
+      "reading": "おはようございます。",
+      "synthesisText": "おはようございます。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_greetings_2": {
+      "id": "conversation_greetings_2",
+      "kind": "conversations",
+      "text": "こんにちは。",
+      "reading": "こんにちは。",
+      "synthesisText": "こんにちは。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_greetings_3": {
+      "id": "conversation_greetings_3",
+      "kind": "conversations",
+      "text": "こんばんは。",
+      "reading": "こんばんは。",
+      "synthesisText": "こんばんは。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_greetings_4": {
+      "id": "conversation_greetings_4",
+      "kind": "conversations",
+      "text": "はじめまして。",
+      "reading": "はじめまして。",
+      "synthesisText": "はじめまして。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_greetings_5": {
+      "id": "conversation_greetings_5",
+      "kind": "conversations",
+      "text": "私はミンジュです。",
+      "reading": "わたしはミンジュです。",
+      "synthesisText": "私はミンジュです。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_greetings_6": {
+      "id": "conversation_greetings_6",
+      "kind": "conversations",
+      "text": "韓国から来ました。",
+      "reading": "かんこくからきました。",
+      "synthesisText": "韓国から来ました。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_greetings_7": {
+      "id": "conversation_greetings_7",
+      "kind": "conversations",
+      "text": "よろしくお願いします。",
+      "reading": "よろしくおねがいします。",
+      "synthesisText": "よろしくお願いします。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_greetings_8": {
+      "id": "conversation_greetings_8",
+      "kind": "conversations",
+      "text": "お元気ですか。",
+      "reading": "おげんきですか。",
+      "synthesisText": "お元気ですか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_greetings_9": {
+      "id": "conversation_greetings_9",
+      "kind": "conversations",
+      "text": "元気だよ。",
+      "reading": "げんきだよ。",
+      "synthesisText": "元気だよ。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_greetings_10": {
+      "id": "conversation_greetings_10",
+      "kind": "conversations",
+      "text": "またね。",
+      "reading": "またね。",
+      "synthesisText": "またね。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_1": {
+      "id": "conversation_daily_1",
+      "kind": "conversations",
+      "text": "今日どうだった？",
+      "reading": "きょうどうだった？",
+      "synthesisText": "今日どうだった？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_2": {
+      "id": "conversation_daily_2",
+      "kind": "conversations",
+      "text": "今、何してる？",
+      "reading": "いま、なにしてる？",
+      "synthesisText": "今、何してる？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_3": {
+      "id": "conversation_daily_3",
+      "kind": "conversations",
+      "text": "ちょっと忙しい。",
+      "reading": "ちょっといそがしい。",
+      "synthesisText": "ちょっと忙しい。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_4": {
+      "id": "conversation_daily_4",
+      "kind": "conversations",
+      "text": "本当に？",
+      "reading": "ほんとうに？",
+      "synthesisText": "本当に？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_5": {
+      "id": "conversation_daily_5",
+      "kind": "conversations",
+      "text": "すごいね！",
+      "reading": "すごいね！",
+      "synthesisText": "すごいね！",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_6": {
+      "id": "conversation_daily_6",
+      "kind": "conversations",
+      "text": "大丈夫？",
+      "reading": "だいじょうぶ？",
+      "synthesisText": "大丈夫？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_7": {
+      "id": "conversation_daily_7",
+      "kind": "conversations",
+      "text": "お疲れさま。",
+      "reading": "おつかれさま。",
+      "synthesisText": "お疲れさま。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_8": {
+      "id": "conversation_daily_8",
+      "kind": "conversations",
+      "text": "あとで連絡するね。",
+      "reading": "あとでれんらくするね。",
+      "synthesisText": "あとで連絡するね。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_9": {
+      "id": "conversation_daily_9",
+      "kind": "conversations",
+      "text": "気をつけてね。",
+      "reading": "きをつけてね。",
+      "synthesisText": "気をつけてね。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_10": {
+      "id": "conversation_daily_10",
+      "kind": "conversations",
+      "text": "また話そう。",
+      "reading": "またはなそう。",
+      "synthesisText": "また話そう。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_hobbies_1": {
+      "id": "conversation_hobbies_1",
+      "kind": "conversations",
+      "text": "趣味は何ですか。",
+      "reading": "しゅみはなんですか。",
+      "synthesisText": "趣味はなんですか。",
+      "readingNote": "何ですか를 ナニデスカ가 아닌 ナンデスカ로 명시."
+    },
+    "conversation_hobbies_2": {
+      "id": "conversation_hobbies_2",
+      "kind": "conversations",
+      "text": "音楽を聴くのが好きです。",
+      "reading": "おんがくをきくのがすきです。",
+      "synthesisText": "音楽を聴くのが好きです。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_hobbies_3": {
+      "id": "conversation_hobbies_3",
+      "kind": "conversations",
+      "text": "どんな映画が好き？",
+      "reading": "どんなえいががすき？",
+      "synthesisText": "どんな映画が好き？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_hobbies_4": {
+      "id": "conversation_hobbies_4",
+      "kind": "conversations",
+      "text": "最近、ドラマを見ています。",
+      "reading": "さいきん、ドラマをみています。",
+      "synthesisText": "最近、ドラマを見ています。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_hobbies_5": {
+      "id": "conversation_hobbies_5",
+      "kind": "conversations",
+      "text": "ゲームをよくします。",
+      "reading": "ゲームをよくします。",
+      "synthesisText": "ゲームをよくします。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_hobbies_6": {
+      "id": "conversation_hobbies_6",
+      "kind": "conversations",
+      "text": "私も好き！",
+      "reading": "わたしもすき！",
+      "synthesisText": "私も好き！",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_hobbies_7": {
+      "id": "conversation_hobbies_7",
+      "kind": "conversations",
+      "text": "おすすめはありますか。",
+      "reading": "おすすめはありますか。",
+      "synthesisText": "おすすめはありますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_hobbies_8": {
+      "id": "conversation_hobbies_8",
+      "kind": "conversations",
+      "text": "写真を撮るのが楽しいです。",
+      "reading": "しゃしんをとるのがたのしいです。",
+      "synthesisText": "写真を撮るのが楽しいです。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_hobbies_9": {
+      "id": "conversation_hobbies_9",
+      "kind": "conversations",
+      "text": "今度、一緒に行こう。",
+      "reading": "こんど、いっしょにいこう。",
+      "synthesisText": "今度、一緒に行こう。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_hobbies_10": {
+      "id": "conversation_hobbies_10",
+      "kind": "conversations",
+      "text": "もっと知りたいです。",
+      "reading": "もっとしりたいです。",
+      "synthesisText": "もっと知りたいです。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_1": {
+      "id": "conversation_dining_1",
+      "kind": "conversations",
+      "text": "二人です。",
+      "reading": "ふたりです。",
+      "synthesisText": "二人です。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_2": {
+      "id": "conversation_dining_2",
+      "kind": "conversations",
+      "text": "メニューをお願いします。",
+      "reading": "メニューをおねがいします。",
+      "synthesisText": "メニューをお願いします。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_3": {
+      "id": "conversation_dining_3",
+      "kind": "conversations",
+      "text": "おすすめは何ですか。",
+      "reading": "おすすめはなんですか。",
+      "synthesisText": "おすすめはなんですか。",
+      "readingNote": "何ですか를 ナニデスカ가 아닌 ナンデスカ로 명시."
+    },
+    "conversation_dining_4": {
+      "id": "conversation_dining_4",
+      "kind": "conversations",
+      "text": "これをください。",
+      "reading": "これをください。",
+      "synthesisText": "これをください。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_5": {
+      "id": "conversation_dining_5",
+      "kind": "conversations",
+      "text": "水をもらえますか。",
+      "reading": "みずをもらえますか。",
+      "synthesisText": "水をもらえますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_6": {
+      "id": "conversation_dining_6",
+      "kind": "conversations",
+      "text": "辛くしないでください。",
+      "reading": "からくしないでください。",
+      "synthesisText": "辛くしないでください。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_7": {
+      "id": "conversation_dining_7",
+      "kind": "conversations",
+      "text": "おいしいです！",
+      "reading": "おいしいです！",
+      "synthesisText": "おいしいです！",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_8": {
+      "id": "conversation_dining_8",
+      "kind": "conversations",
+      "text": "もう一つお願いします。",
+      "reading": "もうひとつおねがいします。",
+      "synthesisText": "もう一つお願いします。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_9": {
+      "id": "conversation_dining_9",
+      "kind": "conversations",
+      "text": "お会計をお願いします。",
+      "reading": "おかいけいをおねがいします。",
+      "synthesisText": "お会計をお願いします。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_10": {
+      "id": "conversation_dining_10",
+      "kind": "conversations",
+      "text": "ごちそうさまでした。",
+      "reading": "ごちそうさまでした。",
+      "synthesisText": "ごちそうさまでした。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_1": {
+      "id": "conversation_shopping_1",
+      "kind": "conversations",
+      "text": "これはいくらですか。",
+      "reading": "これはいくらですか。",
+      "synthesisText": "これはいくらですか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_2": {
+      "id": "conversation_shopping_2",
+      "kind": "conversations",
+      "text": "見てもいいですか。",
+      "reading": "みてもいいですか。",
+      "synthesisText": "見てもいいですか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_3": {
+      "id": "conversation_shopping_3",
+      "kind": "conversations",
+      "text": "試着してもいいですか。",
+      "reading": "しちゃくしてもいいですか。",
+      "synthesisText": "試着してもいいですか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_4": {
+      "id": "conversation_shopping_4",
+      "kind": "conversations",
+      "text": "もう少し大きいサイズはありますか。",
+      "reading": "もうすこしおおきいサイズはありますか。",
+      "synthesisText": "もう少し大きいサイズはありますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_5": {
+      "id": "conversation_shopping_5",
+      "kind": "conversations",
+      "text": "別の色はありますか。",
+      "reading": "べつのいろはありますか。",
+      "synthesisText": "別の色はありますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_6": {
+      "id": "conversation_shopping_6",
+      "kind": "conversations",
+      "text": "これにします。",
+      "reading": "これにします。",
+      "synthesisText": "これにします。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_7": {
+      "id": "conversation_shopping_7",
+      "kind": "conversations",
+      "text": "カードで払えますか。",
+      "reading": "カードではらえますか。",
+      "synthesisText": "カードで払えますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_8": {
+      "id": "conversation_shopping_8",
+      "kind": "conversations",
+      "text": "袋は要りません。",
+      "reading": "ふくろはいりません。",
+      "synthesisText": "袋は要りません。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_9": {
+      "id": "conversation_shopping_9",
+      "kind": "conversations",
+      "text": "免税できますか。",
+      "reading": "めんぜいできますか。",
+      "synthesisText": "免税できますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_10": {
+      "id": "conversation_shopping_10",
+      "kind": "conversations",
+      "text": "レシートをください。",
+      "reading": "レシートをください。",
+      "synthesisText": "レシートをください。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_1": {
+      "id": "conversation_travel_1",
+      "kind": "conversations",
+      "text": "駅はどこですか。",
+      "reading": "えきはどこですか。",
+      "synthesisText": "駅はどこですか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_2": {
+      "id": "conversation_travel_2",
+      "kind": "conversations",
+      "text": "ここへ行きたいです。",
+      "reading": "ここへいきたいです。",
+      "synthesisText": "ここへ行きたいです。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_3": {
+      "id": "conversation_travel_3",
+      "kind": "conversations",
+      "text": "道に迷いました。",
+      "reading": "みちにまよいました。",
+      "synthesisText": "道に迷いました。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_4": {
+      "id": "conversation_travel_4",
+      "kind": "conversations",
+      "text": "まっすぐ行ってください。",
+      "reading": "まっすぐいってください。",
+      "synthesisText": "まっすぐ行ってください。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_5": {
+      "id": "conversation_travel_5",
+      "kind": "conversations",
+      "text": "右に曲がってください。",
+      "reading": "みぎにまがってください。",
+      "synthesisText": "右に曲がってください。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_6": {
+      "id": "conversation_travel_6",
+      "kind": "conversations",
+      "text": "この電車は新宿に行きますか。",
+      "reading": "このでんしゃはしんじゅくにいきますか。",
+      "synthesisText": "この電車は新宿に行きますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_7": {
+      "id": "conversation_travel_7",
+      "kind": "conversations",
+      "text": "切符を一枚ください。",
+      "reading": "きっぷをいちまいください。",
+      "synthesisText": "切符を一枚ください。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_8": {
+      "id": "conversation_travel_8",
+      "kind": "conversations",
+      "text": "何時に着きますか。",
+      "reading": "なんじにつきますか。",
+      "synthesisText": "何時に着きますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_9": {
+      "id": "conversation_travel_9",
+      "kind": "conversations",
+      "text": "写真を撮ってもらえますか。",
+      "reading": "しゃしんをとってもらえますか。",
+      "synthesisText": "写真を撮ってもらえますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_10": {
+      "id": "conversation_travel_10",
+      "kind": "conversations",
+      "text": "助かりました。",
+      "reading": "たすかりました。",
+      "synthesisText": "助かりました。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_1": {
+      "id": "conversation_plans_1",
+      "kind": "conversations",
+      "text": "今週末、空いてる？",
+      "reading": "こんしゅうまつ、あいてる？",
+      "synthesisText": "今週末、あいてる？",
+      "readingNote": "空いてる를 すいてる로 오독하지 않도록 あいてる 명시."
+    },
+    "conversation_plans_2": {
+      "id": "conversation_plans_2",
+      "kind": "conversations",
+      "text": "いつがいい？",
+      "reading": "いつがいい？",
+      "synthesisText": "いつがいい？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_3": {
+      "id": "conversation_plans_3",
+      "kind": "conversations",
+      "text": "土曜日はどう？",
+      "reading": "どようびはどう？",
+      "synthesisText": "土曜日はどう？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_4": {
+      "id": "conversation_plans_4",
+      "kind": "conversations",
+      "text": "三時なら大丈夫。",
+      "reading": "さんじならだいじょうぶ。",
+      "synthesisText": "三時なら大丈夫。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_5": {
+      "id": "conversation_plans_5",
+      "kind": "conversations",
+      "text": "どこで会う？",
+      "reading": "どこであう？",
+      "synthesisText": "どこで会う？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_6": {
+      "id": "conversation_plans_6",
+      "kind": "conversations",
+      "text": "駅の前で会おう。",
+      "reading": "えきのまえであおう。",
+      "synthesisText": "駅の前で会おう。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_7": {
+      "id": "conversation_plans_7",
+      "kind": "conversations",
+      "text": "少し遅れます。",
+      "reading": "すこしおくれます。",
+      "synthesisText": "少し遅れます。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_8": {
+      "id": "conversation_plans_8",
+      "kind": "conversations",
+      "text": "着いたら連絡して。",
+      "reading": "ついたられんらくして。",
+      "synthesisText": "着いたら連絡して。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_9": {
+      "id": "conversation_plans_9",
+      "kind": "conversations",
+      "text": "予定を変更してもいい？",
+      "reading": "よていをへんこうしてもいい？",
+      "synthesisText": "予定を変更してもいい？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_10": {
+      "id": "conversation_plans_10",
+      "kind": "conversations",
+      "text": "楽しみにしてる！",
+      "reading": "たのしみにしてる！",
+      "synthesisText": "楽しみにしてる！",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    }
+  },
+  "content": {
+    "kana:hiragana:あ": "kana_a",
+    "kana:hiragana:い": "kana_i",
+    "kana:hiragana:う": "kana_u",
+    "kana:hiragana:え": "kana_e",
+    "kana:hiragana:お": "kana_o",
+    "kana:hiragana:か": "kana_ka",
+    "kana:hiragana:き": "kana_ki",
+    "kana:hiragana:く": "kana_ku",
+    "kana:hiragana:け": "kana_ke",
+    "kana:hiragana:こ": "kana_ko",
+    "kana:hiragana:さ": "kana_sa",
+    "kana:hiragana:し": "kana_shi",
+    "kana:hiragana:す": "kana_su",
+    "kana:hiragana:せ": "kana_se",
+    "kana:hiragana:そ": "kana_so",
+    "kana:hiragana:た": "kana_ta",
+    "kana:hiragana:ち": "kana_chi",
+    "kana:hiragana:つ": "kana_tsu",
+    "kana:hiragana:て": "kana_te",
+    "kana:hiragana:と": "kana_to",
+    "kana:hiragana:な": "kana_na",
+    "kana:hiragana:に": "kana_ni",
+    "kana:hiragana:ぬ": "kana_nu",
+    "kana:hiragana:ね": "kana_ne",
+    "kana:hiragana:の": "kana_no",
+    "kana:hiragana:は": "kana_ha",
+    "kana:hiragana:ひ": "kana_hi",
+    "kana:hiragana:ふ": "kana_fu",
+    "kana:hiragana:へ": "kana_he",
+    "kana:hiragana:ほ": "kana_ho",
+    "kana:hiragana:ま": "kana_ma",
+    "kana:hiragana:み": "kana_mi",
+    "kana:hiragana:む": "kana_mu",
+    "kana:hiragana:め": "kana_me",
+    "kana:hiragana:も": "kana_mo",
+    "kana:hiragana:や": "kana_ya",
+    "kana:hiragana:ゆ": "kana_yu",
+    "kana:hiragana:よ": "kana_yo",
+    "kana:hiragana:ら": "kana_ra",
+    "kana:hiragana:り": "kana_ri",
+    "kana:hiragana:る": "kana_ru",
+    "kana:hiragana:れ": "kana_re",
+    "kana:hiragana:ろ": "kana_ro",
+    "kana:hiragana:わ": "kana_wa",
+    "kana:hiragana:を": "kana_o",
+    "kana:hiragana:ん": "kana_n",
+    "kana:katakana:ア": "kana_a",
+    "vocabulary:アイス": "vocab_30a2_30a4_30b9",
+    "kana:katakana:イ": "kana_i",
+    "vocabulary:インク": "vocab_30a4_30f3_30af",
+    "kana:katakana:ウ": "kana_u",
+    "vocabulary:ウイルス": "vocab_30a6_30a4_30eb_30b9",
+    "kana:katakana:エ": "kana_e",
+    "vocabulary:エアコン": "vocab_30a8_30a2_30b3_30f3",
+    "kana:katakana:オ": "kana_o",
+    "vocabulary:オレンジ": "vocab_30aa_30ec_30f3_30b8",
+    "kana:katakana:カ": "kana_ka",
+    "vocabulary:カメラ": "vocab_30ab_30e1_30e9",
+    "kana:katakana:キ": "kana_ki",
+    "vocabulary:キウイ": "vocab_30ad_30a6_30a4",
+    "kana:katakana:ク": "kana_ku",
+    "vocabulary:クラス": "vocab_30af_30e9_30b9",
+    "kana:katakana:ケ": "kana_ke",
+    "vocabulary:ケーキ": "vocab_30b1_30fc_30ad",
+    "kana:katakana:コ": "kana_ko",
+    "vocabulary:コーヒー": "vocab_30b3_30fc_30d2_30fc",
+    "kana:katakana:サ": "kana_sa",
+    "vocabulary:サラダ": "vocab_30b5_30e9_30c0",
+    "kana:katakana:シ": "kana_shi",
+    "vocabulary:シャツ": "vocab_30b7_30e3_30c4",
+    "kana:katakana:ス": "kana_su",
+    "vocabulary:スープ": "vocab_30b9_30fc_30d7",
+    "kana:katakana:セ": "kana_se",
+    "vocabulary:セーター": "vocab_30bb_30fc_30bf_30fc",
+    "kana:katakana:ソ": "kana_so",
+    "vocabulary:ソファ": "vocab_30bd_30d5_30a1",
+    "kana:katakana:タ": "kana_ta",
+    "vocabulary:タクシー": "vocab_30bf_30af_30b7_30fc",
+    "kana:katakana:チ": "kana_chi",
+    "vocabulary:チーズ": "vocab_30c1_30fc_30ba",
+    "kana:katakana:ツ": "kana_tsu",
+    "vocabulary:ツアー": "vocab_30c4_30a2_30fc",
+    "kana:katakana:テ": "kana_te",
+    "vocabulary:テレビ": "vocab_30c6_30ec_30d3",
+    "kana:katakana:ト": "kana_to",
+    "vocabulary:トマト": "vocab_30c8_30de_30c8",
+    "kana:katakana:ナ": "kana_na",
+    "vocabulary:ナイフ": "vocab_30ca_30a4_30d5",
+    "kana:katakana:ニ": "kana_ni",
+    "vocabulary:ニュース": "vocab_30cb_30e5_30fc_30b9",
+    "kana:katakana:ヌ": "kana_nu",
+    "vocabulary:ヌードル": "vocab_30cc_30fc_30c9_30eb",
+    "kana:katakana:ネ": "kana_ne",
+    "vocabulary:ネクタイ": "vocab_30cd_30af_30bf_30a4",
+    "kana:katakana:ノ": "kana_no",
+    "vocabulary:ノート": "vocab_30ce_30fc_30c8",
+    "kana:katakana:ハ": "kana_ha",
+    "vocabulary:ハンバーガー": "vocab_30cf_30f3_30d0_30fc_30ac_30fc",
+    "kana:katakana:ヒ": "kana_hi",
+    "vocabulary:ヒント": "vocab_30d2_30f3_30c8",
+    "kana:katakana:フ": "kana_fu",
+    "vocabulary:フォーク": "vocab_30d5_30a9_30fc_30af",
+    "kana:katakana:ヘ": "kana_he",
+    "vocabulary:ヘルメット": "vocab_30d8_30eb_30e1_30c3_30c8",
+    "kana:katakana:ホ": "kana_ho",
+    "vocabulary:ホテル": "vocab_30db_30c6_30eb",
+    "kana:katakana:マ": "kana_ma",
+    "vocabulary:マスク": "vocab_30de_30b9_30af",
+    "kana:katakana:ミ": "kana_mi",
+    "vocabulary:ミルク": "vocab_30df_30eb_30af",
+    "kana:katakana:ム": "kana_mu",
+    "vocabulary:ムード": "vocab_30e0_30fc_30c9",
+    "kana:katakana:メ": "kana_me",
+    "vocabulary:メニュー": "vocab_30e1_30cb_30e5_30fc",
+    "kana:katakana:モ": "kana_mo",
+    "vocabulary:モデル": "vocab_30e2_30c7_30eb",
+    "kana:katakana:ヤ": "kana_ya",
+    "vocabulary:ヤード": "vocab_30e4_30fc_30c9",
+    "kana:katakana:ユ": "kana_yu",
+    "vocabulary:ユーモア": "vocab_30e6_30fc_30e2_30a2",
+    "kana:katakana:ヨ": "kana_yo",
+    "vocabulary:ヨーグルト": "vocab_30e8_30fc_30b0_30eb_30c8",
+    "kana:katakana:ラ": "kana_ra",
+    "vocabulary:ラジオ": "vocab_30e9_30b8_30aa",
+    "kana:katakana:リ": "kana_ri",
+    "vocabulary:リモコン": "vocab_30ea_30e2_30b3_30f3",
+    "kana:katakana:ル": "kana_ru",
+    "vocabulary:ルール": "vocab_30eb_30fc_30eb",
+    "kana:katakana:レ": "kana_re",
+    "vocabulary:レモン": "vocab_30ec_30e2_30f3",
+    "kana:katakana:ロ": "kana_ro",
+    "vocabulary:ロボット": "vocab_30ed_30dc_30c3_30c8",
+    "kana:katakana:ワ": "kana_wa",
+    "vocabulary:ワイン": "vocab_30ef_30a4_30f3",
+    "kana:katakana:ヲ": "kana_o",
+    "vocabulary:ヲ": "kana_o",
+    "kana:katakana:ン": "kana_n",
+    "vocabulary:パン": "vocab_30d1_30f3",
+    "kana:katakana:ガ": "kana_ga",
+    "kana:katakana:ギ": "kana_gi",
+    "kana:katakana:グ": "kana_gu",
+    "kana:katakana:ゲ": "kana_ge",
+    "kana:katakana:ゴ": "kana_go",
+    "kana:katakana:ザ": "kana_za",
+    "kana:katakana:ジ": "kana_ji",
+    "kana:katakana:ズ": "kana_zu",
+    "kana:katakana:ゼ": "kana_ze",
+    "kana:katakana:ゾ": "kana_zo",
+    "kana:katakana:ダ": "kana_da",
+    "kana:katakana:ヂ": "kana_ji",
+    "kana:katakana:ヅ": "kana_zu",
+    "kana:katakana:デ": "kana_de",
+    "kana:katakana:ド": "kana_do",
+    "kana:katakana:バ": "kana_ba",
+    "kana:katakana:ビ": "kana_bi",
+    "kana:katakana:ブ": "kana_bu",
+    "kana:katakana:ベ": "kana_be",
+    "kana:katakana:ボ": "kana_bo",
+    "kana:katakana:パ": "kana_pa",
+    "kana:katakana:ピ": "kana_pi",
+    "kana:katakana:プ": "kana_pu",
+    "kana:katakana:ペ": "kana_pe",
+    "kana:katakana:ポ": "kana_po",
+    "kana:katakana:キャ": "kana_kya",
+    "kana:katakana:キュ": "kana_kyu",
+    "kana:katakana:キョ": "kana_kyo",
+    "kana:katakana:シャ": "kana_sha",
+    "kana:katakana:シュ": "kana_shu",
+    "kana:katakana:ショ": "kana_sho",
+    "kana:katakana:チャ": "kana_cha",
+    "kana:katakana:チュ": "kana_chu",
+    "kana:katakana:チョ": "kana_cho",
+    "kana:katakana:ニャ": "kana_nya",
+    "kana:katakana:ニュ": "kana_nyu",
+    "kana:katakana:ニョ": "kana_nyo",
+    "kana:katakana:ヒャ": "kana_hya",
+    "kana:katakana:ヒュ": "kana_hyu",
+    "kana:katakana:ヒョ": "kana_hyo",
+    "kana:katakana:ミャ": "kana_mya",
+    "kana:katakana:ミュ": "kana_myu",
+    "kana:katakana:ミョ": "kana_myo",
+    "kana:katakana:リャ": "kana_rya",
+    "kana:katakana:リュ": "kana_ryu",
+    "kana:katakana:リョ": "kana_ryo",
+    "kana:katakana:ギャ": "kana_gya",
+    "kana:katakana:ギュ": "kana_gyu",
+    "kana:katakana:ギョ": "kana_gyo",
+    "kana:katakana:ジャ": "kana_ja",
+    "kana:katakana:ジュ": "kana_ju",
+    "kana:katakana:ジョ": "kana_jo",
+    "kana:katakana:ビャ": "kana_bya",
+    "kana:katakana:ビュ": "kana_byu",
+    "kana:katakana:ビョ": "kana_byo",
+    "kana:katakana:ピャ": "kana_pya",
+    "kana:katakana:ピュ": "kana_pyu",
+    "kana:katakana:ピョ": "kana_pyo",
+    "conversation:greetings-1": "conversation_greetings_1",
+    "conversation:greetings-2": "conversation_greetings_2",
+    "conversation:greetings-3": "conversation_greetings_3",
+    "conversation:greetings-4": "conversation_greetings_4",
+    "conversation:greetings-5": "conversation_greetings_5",
+    "conversation:greetings-6": "conversation_greetings_6",
+    "conversation:greetings-7": "conversation_greetings_7",
+    "conversation:greetings-8": "conversation_greetings_8",
+    "conversation:greetings-9": "conversation_greetings_9",
+    "conversation:greetings-10": "conversation_greetings_10",
+    "conversation:daily-1": "conversation_daily_1",
+    "conversation:daily-2": "conversation_daily_2",
+    "conversation:daily-3": "conversation_daily_3",
+    "conversation:daily-4": "conversation_daily_4",
+    "conversation:daily-5": "conversation_daily_5",
+    "conversation:daily-6": "conversation_daily_6",
+    "conversation:daily-7": "conversation_daily_7",
+    "conversation:daily-8": "conversation_daily_8",
+    "conversation:daily-9": "conversation_daily_9",
+    "conversation:daily-10": "conversation_daily_10",
+    "conversation:hobbies-1": "conversation_hobbies_1",
+    "conversation:hobbies-2": "conversation_hobbies_2",
+    "conversation:hobbies-3": "conversation_hobbies_3",
+    "conversation:hobbies-4": "conversation_hobbies_4",
+    "conversation:hobbies-5": "conversation_hobbies_5",
+    "conversation:hobbies-6": "conversation_hobbies_6",
+    "conversation:hobbies-7": "conversation_hobbies_7",
+    "conversation:hobbies-8": "conversation_hobbies_8",
+    "conversation:hobbies-9": "conversation_hobbies_9",
+    "conversation:hobbies-10": "conversation_hobbies_10",
+    "conversation:dining-1": "conversation_dining_1",
+    "conversation:dining-2": "conversation_dining_2",
+    "conversation:dining-3": "conversation_dining_3",
+    "conversation:dining-4": "conversation_dining_4",
+    "conversation:dining-5": "conversation_dining_5",
+    "conversation:dining-6": "conversation_dining_6",
+    "conversation:dining-7": "conversation_dining_7",
+    "conversation:dining-8": "conversation_dining_8",
+    "conversation:dining-9": "conversation_dining_9",
+    "conversation:dining-10": "conversation_dining_10",
+    "conversation:shopping-1": "conversation_shopping_1",
+    "conversation:shopping-2": "conversation_shopping_2",
+    "conversation:shopping-3": "conversation_shopping_3",
+    "conversation:shopping-4": "conversation_shopping_4",
+    "conversation:shopping-5": "conversation_shopping_5",
+    "conversation:shopping-6": "conversation_shopping_6",
+    "conversation:shopping-7": "conversation_shopping_7",
+    "conversation:shopping-8": "conversation_shopping_8",
+    "conversation:shopping-9": "conversation_shopping_9",
+    "conversation:shopping-10": "conversation_shopping_10",
+    "conversation:travel-1": "conversation_travel_1",
+    "conversation:travel-2": "conversation_travel_2",
+    "conversation:travel-3": "conversation_travel_3",
+    "conversation:travel-4": "conversation_travel_4",
+    "conversation:travel-5": "conversation_travel_5",
+    "conversation:travel-6": "conversation_travel_6",
+    "conversation:travel-7": "conversation_travel_7",
+    "conversation:travel-8": "conversation_travel_8",
+    "conversation:travel-9": "conversation_travel_9",
+    "conversation:travel-10": "conversation_travel_10",
+    "conversation:plans-1": "conversation_plans_1",
+    "conversation:plans-2": "conversation_plans_2",
+    "conversation:plans-3": "conversation_plans_3",
+    "conversation:plans-4": "conversation_plans_4",
+    "conversation:plans-5": "conversation_plans_5",
+    "conversation:plans-6": "conversation_plans_6",
+    "conversation:plans-7": "conversation_plans_7",
+    "conversation:plans-8": "conversation_plans_8",
+    "conversation:plans-9": "conversation_plans_9",
+    "conversation:plans-10": "conversation_plans_10"
+  }
+}
