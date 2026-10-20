@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Nihongo Mate",
+  "version": "1.0.0",
+  "identifier": "com.nihongomate.desktop",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:5173",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [{
+      "title": "Nihongo Mate",
+      "width": 1200,
+      "height": 820,
+      "minWidth": 360,
+      "minHeight": 640,
+      "resizable": true,
+      "fullscreen": false,
+      "center": true
+    }],
+    "security": { "csp": null }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "category": "Education",
+    "shortDescription": "한국인을 위한 일본어 문자와 일상 회화 학습 앱",
+    "longDescription": "히라가나, 가타카나, 일상 일본어 회화를 오프라인으로 학습하는 초급자용 앱",
+    "publisher": "Nihongo Mate",
+    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.ico"],
+    "windows": {
+      "webviewInstallMode": { "type": "downloadBootstrapper", "silent": true },
+      "nsis": {
+        "installMode": "currentUser",
+        "languages": ["Korean", "English"],
+        "displayLanguageSelector": false,
+        "startMenuFolder": "Nihongo Mate"
+      }
+    }
+  }
+}
