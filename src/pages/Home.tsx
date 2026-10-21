@@ -9,7 +9,7 @@ export function Home({progress,todayLearnedCount,setTab,reset,resume,onContinue}
   const kata=progress.katakanaLearned.filter(char=>katakanaBasic.some(item=>item.char===char)).length
   const sections=[{icon:BookOpen,title:'히라가나',description:'문자표에서 고르고, 한 글자씩 익혀요.',done:progress.learned.length,total:46,tab:'hiragana' as Tab},
     {icon:Languages,title:'가타카나',description:'기본 문자부터 외래어까지 연습해요.',done:kata,total:46,tab:'katakana' as Tab},
-    {icon:MessageCircle,title:'일상 회화',description:'가나 읽기와 음성으로 문장을 익혀요.',done:progress.conversationLearned.length,total:200,tab:'conversation' as Tab},
+    {icon:MessageCircle,title:'일상 회화',description:'가나 읽기와 음성으로 문장을 익혀요.',done:progress.conversationLearned.length,total:210,tab:'conversation' as Tab},
     {icon:BookMarked,title:'기초 문법',description:'조사부터 기본 문형까지 단계별로 익혀요.',done:progress.grammarLearned.length,total:26,tab:'grammar' as Tab}]
   const recommended=sections.reduce((best,item)=>item.done/item.total<best.done/best.total?item:best)
   return <main className="mx-auto max-w-7xl px-5 pb-12 pt-7 md:pt-9">

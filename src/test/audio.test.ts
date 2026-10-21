@@ -46,7 +46,7 @@ describe('오프라인 음성 카탈로그',()=>{
     expect(buildAudioCatalog(hiragana,katakana,[{...allConversationPhrases[0],id:'new-unreviewed'}],readings).content['conversation:new-unreviewed']).toBeDefined()
   })
   it('모든 학습 항목에 실제 생성 메타데이터가 있다',()=>{
-    expect(Object.keys(audioCatalog.content)).toHaveLength(396)
+    expect(Object.keys(audioCatalog.content)).toHaveLength(406)
     expect(Object.keys(audioManifest.assets)).toHaveLength(216)
     for(const id of Object.values(audioCatalog.content)){
       const asset=audioManifest.assets[id]

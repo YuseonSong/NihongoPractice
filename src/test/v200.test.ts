@@ -5,11 +5,11 @@ import { builderQuestions } from '../data/sentence-builder'
 import { migrateProgress } from '../hooks/useProgress'
 
 describe('2.0 학습 콘텐츠',()=>{
-  it('10개 회화 카테고리에 20개씩 총 200개의 완전한 문장을 제공한다',()=>{
+  it('10개 회화 카테고리에 총 210개의 완전한 문장을 제공한다',()=>{
     expect(conversationCategories).toHaveLength(10)
-    expect(allConversationPhrases).toHaveLength(200)
-    expect(new Set(allConversationPhrases.map(item=>item.id)).size).toBe(200)
-    for(const category of conversationCategories)expect(category.phrases).toHaveLength(20)
+    expect(allConversationPhrases).toHaveLength(210)
+    expect(new Set(allConversationPhrases.map(item=>item.id)).size).toBe(210)
+    for(const category of conversationCategories)expect(category.phrases).toHaveLength(category.id==='work'?30:20)
     for(const item of allConversationPhrases)for(const key of ['japanese','romaji','koreanSound','meaning','situation','politeness','note','related'] as const)expect(item[key].trim().length).toBeGreaterThan(0)
   })
   it('필수 조사 12개와 기본 문법 14개, 조사 비교 3개를 제공한다',()=>{

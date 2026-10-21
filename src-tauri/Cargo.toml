@@ -1,6 +1,6 @@
 [package]
 name = "yuseons-nihongo"
-version = "2.0.0"
+version = "2.0.1"
 description = "Korean-friendly Japanese learning app"
 authors = ["Yuseon"]
 edition = "2021"

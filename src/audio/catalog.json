@@ -2609,6 +2609,86 @@
       "synthesisText": "お先に失礼します。",
       "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
     },
+    "conversation_work_21": {
+      "id": "conversation_work_21",
+      "kind": "conversations",
+      "text": "家に帰りたい。",
+      "reading": "家に帰りたい。",
+      "synthesisText": "家に帰りたい。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_22": {
+      "id": "conversation_work_22",
+      "kind": "conversations",
+      "text": "もう帰りたい。",
+      "reading": "もう帰りたい。",
+      "synthesisText": "もう帰りたい。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_23": {
+      "id": "conversation_work_23",
+      "kind": "conversations",
+      "text": "早く仕事を終えて帰りたい。",
+      "reading": "早く仕事を終えて帰りたい。",
+      "synthesisText": "早く仕事を終えて帰りたい。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_24": {
+      "id": "conversation_work_24",
+      "kind": "conversations",
+      "text": "定時で上がりたい。",
+      "reading": "定時で上がりたい。",
+      "synthesisText": "定時で上がりたい。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_25": {
+      "id": "conversation_work_25",
+      "kind": "conversations",
+      "text": "今日はもう働きたくない。",
+      "reading": "今日はもう働きたくない。",
+      "synthesisText": "今日はもう働きたくない。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_26": {
+      "id": "conversation_work_26",
+      "kind": "conversations",
+      "text": "仕事したくないな。",
+      "reading": "仕事したくないな。",
+      "synthesisText": "仕事したくないな。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_27": {
+      "id": "conversation_work_27",
+      "kind": "conversations",
+      "text": "明日、休みたい。",
+      "reading": "明日、休みたい。",
+      "synthesisText": "明日、休みたい。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_28": {
+      "id": "conversation_work_28",
+      "kind": "conversations",
+      "text": "週末が待ち遠しい。",
+      "reading": "週末が待ち遠しい。",
+      "synthesisText": "週末が待ち遠しい。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_29": {
+      "id": "conversation_work_29",
+      "kind": "conversations",
+      "text": "あと何時間で帰れる？",
+      "reading": "あと何時間で帰れる？",
+      "synthesisText": "あと何時間で帰れる？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_30": {
+      "id": "conversation_work_30",
+      "kind": "conversations",
+      "text": "定時になったらすぐ帰ろう。",
+      "reading": "定時になったらすぐ帰ろう。",
+      "synthesisText": "定時になったらすぐ帰ろう。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
     "conversation_health_1": {
       "id": "conversation_health_1",
       "kind": "conversations",
@@ -3147,6 +3227,16 @@
     "conversation:work-18": "conversation_work_18",
     "conversation:work-19": "conversation_work_19",
     "conversation:work-20": "conversation_work_20",
+    "conversation:work-21": "conversation_work_21",
+    "conversation:work-22": "conversation_work_22",
+    "conversation:work-23": "conversation_work_23",
+    "conversation:work-24": "conversation_work_24",
+    "conversation:work-25": "conversation_work_25",
+    "conversation:work-26": "conversation_work_26",
+    "conversation:work-27": "conversation_work_27",
+    "conversation:work-28": "conversation_work_28",
+    "conversation:work-29": "conversation_work_29",
+    "conversation:work-30": "conversation_work_30",
     "conversation:health-1": "conversation_health_1",
     "conversation:health-2": "conversation_health_2",
     "conversation:health-3": "conversation_health_3",
