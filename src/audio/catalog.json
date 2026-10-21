@@ -1249,6 +1249,86 @@
       "synthesisText": "またね。",
       "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
     },
+    "conversation_greetings_11": {
+      "id": "conversation_greetings_11",
+      "kind": "conversations",
+      "text": "お久しぶりです。",
+      "reading": "お久しぶりです。",
+      "synthesisText": "お久しぶりです。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_greetings_12": {
+      "id": "conversation_greetings_12",
+      "kind": "conversations",
+      "text": "お会いできてうれしいです。",
+      "reading": "お会いできてうれしいです。",
+      "synthesisText": "お会いできてうれしいです。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_greetings_13": {
+      "id": "conversation_greetings_13",
+      "kind": "conversations",
+      "text": "こちらこそ、よろしくお願いします。",
+      "reading": "こちらこそ、よろしくお願いします。",
+      "synthesisText": "こちらこそ、よろしくお願いします。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_greetings_14": {
+      "id": "conversation_greetings_14",
+      "kind": "conversations",
+      "text": "ユソンと申します。",
+      "reading": "ユソンと申します。",
+      "synthesisText": "ユソンと申します。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_greetings_15": {
+      "id": "conversation_greetings_15",
+      "kind": "conversations",
+      "text": "会社員です。",
+      "reading": "会社員です。",
+      "synthesisText": "会社員です。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_greetings_16": {
+      "id": "conversation_greetings_16",
+      "kind": "conversations",
+      "text": "日本語を勉強しています。",
+      "reading": "日本語を勉強しています。",
+      "synthesisText": "日本語を勉強しています。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_greetings_17": {
+      "id": "conversation_greetings_17",
+      "kind": "conversations",
+      "text": "ソウルに住んでいます。",
+      "reading": "ソウルに住んでいます。",
+      "synthesisText": "ソウルに住んでいます。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_greetings_18": {
+      "id": "conversation_greetings_18",
+      "kind": "conversations",
+      "text": "何とお呼びすればいいですか。",
+      "reading": "何とお呼びすればいいですか。",
+      "synthesisText": "何とお呼びすればいいですか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_greetings_19": {
+      "id": "conversation_greetings_19",
+      "kind": "conversations",
+      "text": "じゃあ、また。",
+      "reading": "じゃあ、また。",
+      "synthesisText": "じゃあ、また。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_greetings_20": {
+      "id": "conversation_greetings_20",
+      "kind": "conversations",
+      "text": "先に失礼します。",
+      "reading": "先に失礼します。",
+      "synthesisText": "先に失礼します。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
     "conversation_daily_1": {
       "id": "conversation_daily_1",
       "kind": "conversations",
@@ -1327,6 +1407,86 @@
       "text": "また話そう。",
       "reading": "またはなそう。",
       "synthesisText": "また話そう。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_11": {
+      "id": "conversation_daily_11",
+      "kind": "conversations",
+      "text": "最近どう？",
+      "reading": "最近どう？",
+      "synthesisText": "最近どう？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_12": {
+      "id": "conversation_daily_12",
+      "kind": "conversations",
+      "text": "まあまあかな。",
+      "reading": "まあまあかな。",
+      "synthesisText": "まあまあかな。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_13": {
+      "id": "conversation_daily_13",
+      "kind": "conversations",
+      "text": "それ、いいね。",
+      "reading": "それ、いいね。",
+      "synthesisText": "それ、いいね。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_14": {
+      "id": "conversation_daily_14",
+      "kind": "conversations",
+      "text": "わかる！",
+      "reading": "わかる！",
+      "synthesisText": "わかる！",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_15": {
+      "id": "conversation_daily_15",
+      "kind": "conversations",
+      "text": "それで、どうなったの？",
+      "reading": "それで、どうなったの？",
+      "synthesisText": "それで、どうなったの？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_16": {
+      "id": "conversation_daily_16",
+      "kind": "conversations",
+      "text": "別に何もないよ。",
+      "reading": "別に何もないよ。",
+      "synthesisText": "別に何もないよ。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_17": {
+      "id": "conversation_daily_17",
+      "kind": "conversations",
+      "text": "ちょっと聞いてよ。",
+      "reading": "ちょっと聞いてよ。",
+      "synthesisText": "ちょっと聞いてよ。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_18": {
+      "id": "conversation_daily_18",
+      "kind": "conversations",
+      "text": "冗談でしょ？",
+      "reading": "冗談でしょ？",
+      "synthesisText": "冗談でしょ？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_19": {
+      "id": "conversation_daily_19",
+      "kind": "conversations",
+      "text": "無理しないでね。",
+      "reading": "無理しないでね。",
+      "synthesisText": "無理しないでね。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_daily_20": {
+      "id": "conversation_daily_20",
+      "kind": "conversations",
+      "text": "今日はありがとう。",
+      "reading": "今日はありがとう。",
+      "synthesisText": "今日はありがとう。",
       "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
     },
     "conversation_hobbies_1": {
@@ -1409,6 +1569,86 @@
       "synthesisText": "もっと知りたいです。",
       "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
     },
+    "conversation_hobbies_11": {
+      "id": "conversation_hobbies_11",
+      "kind": "conversations",
+      "text": "最近、何にはまってる？",
+      "reading": "最近、何にはまってる？",
+      "synthesisText": "最近、何にはまってる？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_hobbies_12": {
+      "id": "conversation_hobbies_12",
+      "kind": "conversations",
+      "text": "料理をするのが好きです。",
+      "reading": "料理をするのが好きです。",
+      "synthesisText": "料理をするのが好きです。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_hobbies_13": {
+      "id": "conversation_hobbies_13",
+      "kind": "conversations",
+      "text": "休みの日はよく散歩します。",
+      "reading": "休みの日はよく散歩します。",
+      "synthesisText": "休みの日はよく散歩します。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_hobbies_14": {
+      "id": "conversation_hobbies_14",
+      "kind": "conversations",
+      "text": "本を読むのが趣味です。",
+      "reading": "本を読むのが趣味です。",
+      "synthesisText": "本を読むのが趣味です。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_hobbies_15": {
+      "id": "conversation_hobbies_15",
+      "kind": "conversations",
+      "text": "ライブに行ったことある？",
+      "reading": "ライブに行ったことある？",
+      "synthesisText": "ライブに行ったことある？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_hobbies_16": {
+      "id": "conversation_hobbies_16",
+      "kind": "conversations",
+      "text": "この曲、知ってる？",
+      "reading": "この曲、知ってる？",
+      "synthesisText": "この曲、知ってる？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_hobbies_17": {
+      "id": "conversation_hobbies_17",
+      "kind": "conversations",
+      "text": "最近、韓国ドラマにはまっています。",
+      "reading": "最近、韓国ドラマにはまっています。",
+      "synthesisText": "最近、韓国ドラマにはまっています。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_hobbies_18": {
+      "id": "conversation_hobbies_18",
+      "kind": "conversations",
+      "text": "一緒にやってみない？",
+      "reading": "一緒にやってみない？",
+      "synthesisText": "一緒にやってみない？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_hobbies_19": {
+      "id": "conversation_hobbies_19",
+      "kind": "conversations",
+      "text": "初心者でもできますか。",
+      "reading": "初心者でもできますか。",
+      "synthesisText": "初心者でもできますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_hobbies_20": {
+      "id": "conversation_hobbies_20",
+      "kind": "conversations",
+      "text": "面白そうですね。",
+      "reading": "面白そうですね。",
+      "synthesisText": "面白そうですね。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
     "conversation_dining_1": {
       "id": "conversation_dining_1",
       "kind": "conversations",
@@ -1487,6 +1727,86 @@
       "text": "ごちそうさまでした。",
       "reading": "ごちそうさまでした。",
       "synthesisText": "ごちそうさまでした。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_11": {
+      "id": "conversation_dining_11",
+      "kind": "conversations",
+      "text": "一人です。",
+      "reading": "一人です。",
+      "synthesisText": "一人です。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_12": {
+      "id": "conversation_dining_12",
+      "kind": "conversations",
+      "text": "予約しています。",
+      "reading": "予約しています。",
+      "synthesisText": "予約しています。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_13": {
+      "id": "conversation_dining_13",
+      "kind": "conversations",
+      "text": "窓側の席は空いていますか。",
+      "reading": "窓側の席は空いていますか。",
+      "synthesisText": "窓側の席は空いていますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_14": {
+      "id": "conversation_dining_14",
+      "kind": "conversations",
+      "text": "注文してもいいですか。",
+      "reading": "注文してもいいですか。",
+      "synthesisText": "注文してもいいですか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_15": {
+      "id": "conversation_dining_15",
+      "kind": "conversations",
+      "text": "これと同じものをお願いします。",
+      "reading": "これと同じものをお願いします。",
+      "synthesisText": "これと同じものをお願いします。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_16": {
+      "id": "conversation_dining_16",
+      "kind": "conversations",
+      "text": "アレルギーがあります。",
+      "reading": "アレルギーがあります。",
+      "synthesisText": "アレルギーがあります。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_17": {
+      "id": "conversation_dining_17",
+      "kind": "conversations",
+      "text": "これは何が入っていますか。",
+      "reading": "これは何が入っていますか。",
+      "synthesisText": "これは何が入っていますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_18": {
+      "id": "conversation_dining_18",
+      "kind": "conversations",
+      "text": "店内でお願いします。",
+      "reading": "店内でお願いします。",
+      "synthesisText": "店内でお願いします。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_19": {
+      "id": "conversation_dining_19",
+      "kind": "conversations",
+      "text": "持ち帰りでお願いします。",
+      "reading": "持ち帰りでお願いします。",
+      "synthesisText": "持ち帰りでお願いします。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_dining_20": {
+      "id": "conversation_dining_20",
+      "kind": "conversations",
+      "text": "別々に払えますか。",
+      "reading": "別々に払えますか。",
+      "synthesisText": "別々に払えますか。",
       "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
     },
     "conversation_shopping_1": {
@@ -1569,6 +1889,86 @@
       "synthesisText": "レシートをください。",
       "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
     },
+    "conversation_shopping_11": {
+      "id": "conversation_shopping_11",
+      "kind": "conversations",
+      "text": "これを見せてください。",
+      "reading": "これを見せてください。",
+      "synthesisText": "これを見せてください。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_12": {
+      "id": "conversation_shopping_12",
+      "kind": "conversations",
+      "text": "ちょっと考えます。",
+      "reading": "ちょっと考えます。",
+      "synthesisText": "ちょっと考えます。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_13": {
+      "id": "conversation_shopping_13",
+      "kind": "conversations",
+      "text": "ほかのデザインもありますか。",
+      "reading": "ほかのデザインもありますか。",
+      "synthesisText": "ほかのデザインもありますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_14": {
+      "id": "conversation_shopping_14",
+      "kind": "conversations",
+      "text": "セールはいつまでですか。",
+      "reading": "セールはいつまでですか。",
+      "synthesisText": "セールはいつまでですか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_15": {
+      "id": "conversation_shopping_15",
+      "kind": "conversations",
+      "text": "少し安くなりますか。",
+      "reading": "少し安くなりますか。",
+      "synthesisText": "少し安くなりますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_16": {
+      "id": "conversation_shopping_16",
+      "kind": "conversations",
+      "text": "現金だけですか。",
+      "reading": "現金だけですか。",
+      "synthesisText": "現金だけですか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_17": {
+      "id": "conversation_shopping_17",
+      "kind": "conversations",
+      "text": "返品できますか。",
+      "reading": "返品できますか。",
+      "synthesisText": "返品できますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_18": {
+      "id": "conversation_shopping_18",
+      "kind": "conversations",
+      "text": "プレゼント用に包んでください。",
+      "reading": "プレゼント用に包んでください。",
+      "synthesisText": "プレゼント用に包んでください。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_19": {
+      "id": "conversation_shopping_19",
+      "kind": "conversations",
+      "text": "在庫を確認してもらえますか。",
+      "reading": "在庫を確認してもらえますか。",
+      "synthesisText": "在庫を確認してもらえますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_shopping_20": {
+      "id": "conversation_shopping_20",
+      "kind": "conversations",
+      "text": "やっぱりやめます。",
+      "reading": "やっぱりやめます。",
+      "synthesisText": "やっぱりやめます。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
     "conversation_travel_1": {
       "id": "conversation_travel_1",
       "kind": "conversations",
@@ -1649,6 +2049,86 @@
       "synthesisText": "助かりました。",
       "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
     },
+    "conversation_travel_11": {
+      "id": "conversation_travel_11",
+      "kind": "conversations",
+      "text": "すみません、道を教えてください。",
+      "reading": "すみません、道を教えてください。",
+      "synthesisText": "すみません、道を教えてください。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_12": {
+      "id": "conversation_travel_12",
+      "kind": "conversations",
+      "text": "ここから遠いですか。",
+      "reading": "ここから遠いですか。",
+      "synthesisText": "ここから遠いですか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_13": {
+      "id": "conversation_travel_13",
+      "kind": "conversations",
+      "text": "歩いて何分ぐらいですか。",
+      "reading": "歩いて何分ぐらいですか。",
+      "synthesisText": "歩いて何分ぐらいですか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_14": {
+      "id": "conversation_travel_14",
+      "kind": "conversations",
+      "text": "次の駅で降ります。",
+      "reading": "次の駅で降ります。",
+      "synthesisText": "次の駅で降ります。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_15": {
+      "id": "conversation_travel_15",
+      "kind": "conversations",
+      "text": "乗り換えは必要ですか。",
+      "reading": "乗り換えは必要ですか。",
+      "synthesisText": "乗り換えは必要ですか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_16": {
+      "id": "conversation_travel_16",
+      "kind": "conversations",
+      "text": "このバスで合っていますか。",
+      "reading": "このバスで合っていますか。",
+      "synthesisText": "このバスで合っていますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_17": {
+      "id": "conversation_travel_17",
+      "kind": "conversations",
+      "text": "一日乗車券はありますか。",
+      "reading": "一日乗車券はありますか。",
+      "synthesisText": "一日乗車券はありますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_18": {
+      "id": "conversation_travel_18",
+      "kind": "conversations",
+      "text": "荷物を預けたいです。",
+      "reading": "荷物を預けたいです。",
+      "synthesisText": "荷物を預けたいです。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_19": {
+      "id": "conversation_travel_19",
+      "kind": "conversations",
+      "text": "チェックインをお願いします。",
+      "reading": "チェックインをお願いします。",
+      "synthesisText": "チェックインをお願いします。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_travel_20": {
+      "id": "conversation_travel_20",
+      "kind": "conversations",
+      "text": "予約を変更したいです。",
+      "reading": "予約を変更したいです。",
+      "synthesisText": "予約を変更したいです。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
     "conversation_plans_1": {
       "id": "conversation_plans_1",
       "kind": "conversations",
@@ -1727,6 +2207,566 @@
       "text": "楽しみにしてる！",
       "reading": "たのしみにしてる！",
       "synthesisText": "楽しみにしてる！",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_11": {
+      "id": "conversation_plans_11",
+      "kind": "conversations",
+      "text": "来週、会いませんか。",
+      "reading": "来週、会いませんか。",
+      "synthesisText": "来週、会いませんか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_12": {
+      "id": "conversation_plans_12",
+      "kind": "conversations",
+      "text": "何曜日が都合いい？",
+      "reading": "何曜日が都合いい？",
+      "synthesisText": "何曜日が都合いい？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_13": {
+      "id": "conversation_plans_13",
+      "kind": "conversations",
+      "text": "平日の夜なら空いてるよ。",
+      "reading": "平日の夜なら空いてるよ。",
+      "synthesisText": "平日の夜なら空いてるよ。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_14": {
+      "id": "conversation_plans_14",
+      "kind": "conversations",
+      "text": "七時に予約しておくね。",
+      "reading": "七時に予約しておくね。",
+      "synthesisText": "七時に予約しておくね。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_15": {
+      "id": "conversation_plans_15",
+      "kind": "conversations",
+      "text": "場所はあとで送るね。",
+      "reading": "場所はあとで送るね。",
+      "synthesisText": "場所はあとで送るね。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_16": {
+      "id": "conversation_plans_16",
+      "kind": "conversations",
+      "text": "明日に変更できますか。",
+      "reading": "明日に変更できますか。",
+      "synthesisText": "明日に変更できますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_17": {
+      "id": "conversation_plans_17",
+      "kind": "conversations",
+      "text": "急に行けなくなった。",
+      "reading": "急に行けなくなった。",
+      "synthesisText": "急に行けなくなった。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_18": {
+      "id": "conversation_plans_18",
+      "kind": "conversations",
+      "text": "また今度にしよう。",
+      "reading": "また今度にしよう。",
+      "synthesisText": "また今度にしよう。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_19": {
+      "id": "conversation_plans_19",
+      "kind": "conversations",
+      "text": "着く時間がわかったら教えて。",
+      "reading": "着く時間がわかったら教えて。",
+      "synthesisText": "着く時間がわかったら教えて。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_plans_20": {
+      "id": "conversation_plans_20",
+      "kind": "conversations",
+      "text": "待ち合わせ場所はここでいい？",
+      "reading": "待ち合わせ場所はここでいい？",
+      "synthesisText": "待ち合わせ場所はここでいい？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_1": {
+      "id": "conversation_today_1",
+      "kind": "conversations",
+      "text": "今日は何するの？",
+      "reading": "今日は何するの？",
+      "synthesisText": "今日は何するの？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_2": {
+      "id": "conversation_today_2",
+      "kind": "conversations",
+      "text": "今日は何をしますか。",
+      "reading": "今日は何をしますか。",
+      "synthesisText": "今日は何をしますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_3": {
+      "id": "conversation_today_3",
+      "kind": "conversations",
+      "text": "今日は予定ある？",
+      "reading": "今日は予定ある？",
+      "synthesisText": "今日は予定ある？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_4": {
+      "id": "conversation_today_4",
+      "kind": "conversations",
+      "text": "午前中は仕事です。",
+      "reading": "午前中は仕事です。",
+      "synthesisText": "午前中は仕事です。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_5": {
+      "id": "conversation_today_5",
+      "kind": "conversations",
+      "text": "午後は家にいます。",
+      "reading": "午後は家にいます。",
+      "synthesisText": "午後は家にいます。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_6": {
+      "id": "conversation_today_6",
+      "kind": "conversations",
+      "text": "今、移動中です。",
+      "reading": "今、移動中です。",
+      "synthesisText": "今、移動中です。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_7": {
+      "id": "conversation_today_7",
+      "kind": "conversations",
+      "text": "これから昼ごはんを食べます。",
+      "reading": "これから昼ごはんを食べます。",
+      "synthesisText": "これから昼ごはんを食べます。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_8": {
+      "id": "conversation_today_8",
+      "kind": "conversations",
+      "text": "今日は家でゆっくりする。",
+      "reading": "今日は家でゆっくりする。",
+      "synthesisText": "今日は家でゆっくりする。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_9": {
+      "id": "conversation_today_9",
+      "kind": "conversations",
+      "text": "夕方、買い物に行くよ。",
+      "reading": "夕方、買い物に行くよ。",
+      "synthesisText": "夕方、買い物に行くよ。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_10": {
+      "id": "conversation_today_10",
+      "kind": "conversations",
+      "text": "夜は友達に会います。",
+      "reading": "夜は友達に会います。",
+      "synthesisText": "夜は友達に会います。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_11": {
+      "id": "conversation_today_11",
+      "kind": "conversations",
+      "text": "何時ごろ終わる？",
+      "reading": "何時ごろ終わる？",
+      "synthesisText": "何時ごろ終わる？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_12": {
+      "id": "conversation_today_12",
+      "kind": "conversations",
+      "text": "六時ごろ終わるよ。",
+      "reading": "六時ごろ終わるよ。",
+      "synthesisText": "六時ごろ終わるよ。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_13": {
+      "id": "conversation_today_13",
+      "kind": "conversations",
+      "text": "今、家を出たところ。",
+      "reading": "今、家を出たところ。",
+      "synthesisText": "今、家を出たところ。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_14": {
+      "id": "conversation_today_14",
+      "kind": "conversations",
+      "text": "まだ何も決めてない。",
+      "reading": "まだ何も決めてない。",
+      "synthesisText": "まだ何も決めてない。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_15": {
+      "id": "conversation_today_15",
+      "kind": "conversations",
+      "text": "あとでジムに行くつもり。",
+      "reading": "あとでジムに行くつもり。",
+      "synthesisText": "あとでジムに行くつもり。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_16": {
+      "id": "conversation_today_16",
+      "kind": "conversations",
+      "text": "今日は早く寝たいです。",
+      "reading": "今日は早く寝たいです。",
+      "synthesisText": "今日は早く寝たいです。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_17": {
+      "id": "conversation_today_17",
+      "kind": "conversations",
+      "text": "今、電話しても大丈夫？",
+      "reading": "今、電話しても大丈夫？",
+      "synthesisText": "今、電話しても大丈夫？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_18": {
+      "id": "conversation_today_18",
+      "kind": "conversations",
+      "text": "今はちょっと手が離せない。",
+      "reading": "今はちょっと手が離せない。",
+      "synthesisText": "今はちょっと手が離せない。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_19": {
+      "id": "conversation_today_19",
+      "kind": "conversations",
+      "text": "終わったら連絡するね。",
+      "reading": "終わったら連絡するね。",
+      "synthesisText": "終わったら連絡するね。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_today_20": {
+      "id": "conversation_today_20",
+      "kind": "conversations",
+      "text": "今日は一日どうでしたか。",
+      "reading": "今日は一日どうでしたか。",
+      "synthesisText": "今日は一日どうでしたか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_1": {
+      "id": "conversation_work_1",
+      "kind": "conversations",
+      "text": "今日は九時から授業があります。",
+      "reading": "今日は九時から授業があります。",
+      "synthesisText": "今日は九時から授業があります。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_2": {
+      "id": "conversation_work_2",
+      "kind": "conversations",
+      "text": "会議は何時からですか。",
+      "reading": "会議は何時からですか。",
+      "synthesisText": "会議は何時からですか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_3": {
+      "id": "conversation_work_3",
+      "kind": "conversations",
+      "text": "資料を確認してください。",
+      "reading": "資料を確認してください。",
+      "synthesisText": "資料を確認してください。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_4": {
+      "id": "conversation_work_4",
+      "kind": "conversations",
+      "text": "この課題はいつまでですか。",
+      "reading": "この課題はいつまでですか。",
+      "synthesisText": "この課題はいつまでですか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_5": {
+      "id": "conversation_work_5",
+      "kind": "conversations",
+      "text": "少し質問してもいいですか。",
+      "reading": "少し質問してもいいですか。",
+      "synthesisText": "少し質問してもいいですか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_6": {
+      "id": "conversation_work_6",
+      "kind": "conversations",
+      "text": "もう一度説明していただけますか。",
+      "reading": "もう一度説明していただけますか。",
+      "synthesisText": "もう一度説明していただけますか。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_7": {
+      "id": "conversation_work_7",
+      "kind": "conversations",
+      "text": "今日は残業します。",
+      "reading": "今日は残業します。",
+      "synthesisText": "今日は残業します。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_8": {
+      "id": "conversation_work_8",
+      "kind": "conversations",
+      "text": "明日は在宅勤務です。",
+      "reading": "明日は在宅勤務です。",
+      "synthesisText": "明日は在宅勤務です。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_9": {
+      "id": "conversation_work_9",
+      "kind": "conversations",
+      "text": "メールを送りました。",
+      "reading": "メールを送りました。",
+      "synthesisText": "メールを送りました。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_10": {
+      "id": "conversation_work_10",
+      "kind": "conversations",
+      "text": "締め切りに間に合いそうです。",
+      "reading": "締め切りに間に合いそうです。",
+      "synthesisText": "締め切りに間に合いそうです。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_11": {
+      "id": "conversation_work_11",
+      "kind": "conversations",
+      "text": "今日は忙しかった。",
+      "reading": "今日は忙しかった。",
+      "synthesisText": "今日は忙しかった。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_12": {
+      "id": "conversation_work_12",
+      "kind": "conversations",
+      "text": "テスト、どうだった？",
+      "reading": "テスト、どうだった？",
+      "synthesisText": "テスト、どうだった？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_13": {
+      "id": "conversation_work_13",
+      "kind": "conversations",
+      "text": "思ったより難しかった。",
+      "reading": "思ったより難しかった。",
+      "synthesisText": "思ったより難しかった。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_14": {
+      "id": "conversation_work_14",
+      "kind": "conversations",
+      "text": "宿題、もう終わった？",
+      "reading": "宿題、もう終わった？",
+      "synthesisText": "宿題、もう終わった？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_15": {
+      "id": "conversation_work_15",
+      "kind": "conversations",
+      "text": "まだ半分しか終わってない。",
+      "reading": "まだ半分しか終わってない。",
+      "synthesisText": "まだ半分しか終わってない。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_16": {
+      "id": "conversation_work_16",
+      "kind": "conversations",
+      "text": "一緒に勉強しない？",
+      "reading": "一緒に勉強しない？",
+      "synthesisText": "一緒に勉強しない？",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_17": {
+      "id": "conversation_work_17",
+      "kind": "conversations",
+      "text": "今日は有給を取りました。",
+      "reading": "今日は有給を取りました。",
+      "synthesisText": "今日は有給を取りました。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_18": {
+      "id": "conversation_work_18",
+      "kind": "conversations",
+      "text": "担当者に確認します。",
+      "reading": "担当者に確認します。",
+      "synthesisText": "担当者に確認します。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_19": {
+      "id": "conversation_work_19",
+      "kind": "conversations",
+      "text": "少々お待ちください。",
+      "reading": "少々お待ちください。",
+      "synthesisText": "少々お待ちください。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_work_20": {
+      "id": "conversation_work_20",
+      "kind": "conversations",
+      "text": "お先に失礼します。",
+      "reading": "お先に失礼します。",
+      "synthesisText": "お先に失礼します。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_1": {
+      "id": "conversation_health_1",
+      "kind": "conversations",
+      "text": "今日は気分がいいです。",
+      "reading": "今日は気分がいいです。",
+      "synthesisText": "今日は気分がいいです。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_2": {
+      "id": "conversation_health_2",
+      "kind": "conversations",
+      "text": "ちょっと疲れています。",
+      "reading": "ちょっと疲れています。",
+      "synthesisText": "ちょっと疲れています。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_3": {
+      "id": "conversation_health_3",
+      "kind": "conversations",
+      "text": "眠くて集中できない。",
+      "reading": "眠くて集中できない。",
+      "synthesisText": "眠くて集中できない。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_4": {
+      "id": "conversation_health_4",
+      "kind": "conversations",
+      "text": "なんだか緊張する。",
+      "reading": "なんだか緊張する。",
+      "synthesisText": "なんだか緊張する。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_5": {
+      "id": "conversation_health_5",
+      "kind": "conversations",
+      "text": "うれしくてたまらない。",
+      "reading": "うれしくてたまらない。",
+      "synthesisText": "うれしくてたまらない。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_6": {
+      "id": "conversation_health_6",
+      "kind": "conversations",
+      "text": "少し落ち込んでいます。",
+      "reading": "少し落ち込んでいます。",
+      "synthesisText": "少し落ち込んでいます。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_7": {
+      "id": "conversation_health_7",
+      "kind": "conversations",
+      "text": "心配しなくても大丈夫だよ。",
+      "reading": "心配しなくても大丈夫だよ。",
+      "synthesisText": "心配しなくても大丈夫だよ。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_8": {
+      "id": "conversation_health_8",
+      "kind": "conversations",
+      "text": "頭が痛いです。",
+      "reading": "頭が痛いです。",
+      "synthesisText": "頭が痛いです。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_9": {
+      "id": "conversation_health_9",
+      "kind": "conversations",
+      "text": "のどが痛いです。",
+      "reading": "のどが痛いです。",
+      "synthesisText": "のどが痛いです。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_10": {
+      "id": "conversation_health_10",
+      "kind": "conversations",
+      "text": "熱があります。",
+      "reading": "熱があります。",
+      "synthesisText": "熱があります。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_11": {
+      "id": "conversation_health_11",
+      "kind": "conversations",
+      "text": "せきが出ます。",
+      "reading": "せきが出ます。",
+      "synthesisText": "せきが出ます。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_12": {
+      "id": "conversation_health_12",
+      "kind": "conversations",
+      "text": "お腹の調子が悪いです。",
+      "reading": "お腹の調子が悪いです。",
+      "synthesisText": "お腹の調子が悪いです。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_13": {
+      "id": "conversation_health_13",
+      "kind": "conversations",
+      "text": "昨日から具合が悪いです。",
+      "reading": "昨日から具合が悪いです。",
+      "synthesisText": "昨日から具合が悪いです。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_14": {
+      "id": "conversation_health_14",
+      "kind": "conversations",
+      "text": "薬を飲みました。",
+      "reading": "薬を飲みました。",
+      "synthesisText": "薬を飲みました。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_15": {
+      "id": "conversation_health_15",
+      "kind": "conversations",
+      "text": "少し休んだほうがいいよ。",
+      "reading": "少し休んだほうがいいよ。",
+      "synthesisText": "少し休んだほうがいいよ。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_16": {
+      "id": "conversation_health_16",
+      "kind": "conversations",
+      "text": "病院に行ったほうがいいです。",
+      "reading": "病院に行ったほうがいいです。",
+      "synthesisText": "病院に行ったほうがいいです。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_17": {
+      "id": "conversation_health_17",
+      "kind": "conversations",
+      "text": "無理しないでください。",
+      "reading": "無理しないでください。",
+      "synthesisText": "無理しないでください。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_18": {
+      "id": "conversation_health_18",
+      "kind": "conversations",
+      "text": "もう大丈夫です。",
+      "reading": "もう大丈夫です。",
+      "synthesisText": "もう大丈夫です。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_19": {
+      "id": "conversation_health_19",
+      "kind": "conversations",
+      "text": "お大事に。",
+      "reading": "お大事に。",
+      "synthesisText": "お大事に。",
+      "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
+    },
+    "conversation_health_20": {
+      "id": "conversation_health_20",
+      "kind": "conversations",
+      "text": "元気になってよかった。",
+      "reading": "元気になってよかった。",
+      "synthesisText": "元気になってよかった。",
       "readingNote": "원문·로마자와 대조한 읽기. 합성 전 쿼리의 실제 읽기를 별도 검토."
     }
   },
@@ -1937,6 +2977,16 @@
     "conversation:greetings-8": "conversation_greetings_8",
     "conversation:greetings-9": "conversation_greetings_9",
     "conversation:greetings-10": "conversation_greetings_10",
+    "conversation:greetings-11": "conversation_greetings_11",
+    "conversation:greetings-12": "conversation_greetings_12",
+    "conversation:greetings-13": "conversation_greetings_13",
+    "conversation:greetings-14": "conversation_greetings_14",
+    "conversation:greetings-15": "conversation_greetings_15",
+    "conversation:greetings-16": "conversation_greetings_16",
+    "conversation:greetings-17": "conversation_greetings_17",
+    "conversation:greetings-18": "conversation_greetings_18",
+    "conversation:greetings-19": "conversation_greetings_19",
+    "conversation:greetings-20": "conversation_greetings_20",
     "conversation:daily-1": "conversation_daily_1",
     "conversation:daily-2": "conversation_daily_2",
     "conversation:daily-3": "conversation_daily_3",
@@ -1947,6 +2997,16 @@
     "conversation:daily-8": "conversation_daily_8",
     "conversation:daily-9": "conversation_daily_9",
     "conversation:daily-10": "conversation_daily_10",
+    "conversation:daily-11": "conversation_daily_11",
+    "conversation:daily-12": "conversation_daily_12",
+    "conversation:daily-13": "conversation_daily_13",
+    "conversation:daily-14": "conversation_daily_14",
+    "conversation:daily-15": "conversation_daily_15",
+    "conversation:daily-16": "conversation_daily_16",
+    "conversation:daily-17": "conversation_daily_17",
+    "conversation:daily-18": "conversation_daily_18",
+    "conversation:daily-19": "conversation_daily_19",
+    "conversation:daily-20": "conversation_daily_20",
     "conversation:hobbies-1": "conversation_hobbies_1",
     "conversation:hobbies-2": "conversation_hobbies_2",
     "conversation:hobbies-3": "conversation_hobbies_3",
@@ -1957,6 +3017,16 @@
     "conversation:hobbies-8": "conversation_hobbies_8",
     "conversation:hobbies-9": "conversation_hobbies_9",
     "conversation:hobbies-10": "conversation_hobbies_10",
+    "conversation:hobbies-11": "conversation_hobbies_11",
+    "conversation:hobbies-12": "conversation_hobbies_12",
+    "conversation:hobbies-13": "conversation_hobbies_13",
+    "conversation:hobbies-14": "conversation_hobbies_14",
+    "conversation:hobbies-15": "conversation_hobbies_15",
+    "conversation:hobbies-16": "conversation_hobbies_16",
+    "conversation:hobbies-17": "conversation_hobbies_17",
+    "conversation:hobbies-18": "conversation_hobbies_18",
+    "conversation:hobbies-19": "conversation_hobbies_19",
+    "conversation:hobbies-20": "conversation_hobbies_20",
     "conversation:dining-1": "conversation_dining_1",
     "conversation:dining-2": "conversation_dining_2",
     "conversation:dining-3": "conversation_dining_3",
@@ -1967,6 +3037,16 @@
     "conversation:dining-8": "conversation_dining_8",
     "conversation:dining-9": "conversation_dining_9",
     "conversation:dining-10": "conversation_dining_10",
+    "conversation:dining-11": "conversation_dining_11",
+    "conversation:dining-12": "conversation_dining_12",
+    "conversation:dining-13": "conversation_dining_13",
+    "conversation:dining-14": "conversation_dining_14",
+    "conversation:dining-15": "conversation_dining_15",
+    "conversation:dining-16": "conversation_dining_16",
+    "conversation:dining-17": "conversation_dining_17",
+    "conversation:dining-18": "conversation_dining_18",
+    "conversation:dining-19": "conversation_dining_19",
+    "conversation:dining-20": "conversation_dining_20",
     "conversation:shopping-1": "conversation_shopping_1",
     "conversation:shopping-2": "conversation_shopping_2",
     "conversation:shopping-3": "conversation_shopping_3",
@@ -1977,6 +3057,16 @@
     "conversation:shopping-8": "conversation_shopping_8",
     "conversation:shopping-9": "conversation_shopping_9",
     "conversation:shopping-10": "conversation_shopping_10",
+    "conversation:shopping-11": "conversation_shopping_11",
+    "conversation:shopping-12": "conversation_shopping_12",
+    "conversation:shopping-13": "conversation_shopping_13",
+    "conversation:shopping-14": "conversation_shopping_14",
+    "conversation:shopping-15": "conversation_shopping_15",
+    "conversation:shopping-16": "conversation_shopping_16",
+    "conversation:shopping-17": "conversation_shopping_17",
+    "conversation:shopping-18": "conversation_shopping_18",
+    "conversation:shopping-19": "conversation_shopping_19",
+    "conversation:shopping-20": "conversation_shopping_20",
     "conversation:travel-1": "conversation_travel_1",
     "conversation:travel-2": "conversation_travel_2",
     "conversation:travel-3": "conversation_travel_3",
@@ -1987,6 +3077,16 @@
     "conversation:travel-8": "conversation_travel_8",
     "conversation:travel-9": "conversation_travel_9",
     "conversation:travel-10": "conversation_travel_10",
+    "conversation:travel-11": "conversation_travel_11",
+    "conversation:travel-12": "conversation_travel_12",
+    "conversation:travel-13": "conversation_travel_13",
+    "conversation:travel-14": "conversation_travel_14",
+    "conversation:travel-15": "conversation_travel_15",
+    "conversation:travel-16": "conversation_travel_16",
+    "conversation:travel-17": "conversation_travel_17",
+    "conversation:travel-18": "conversation_travel_18",
+    "conversation:travel-19": "conversation_travel_19",
+    "conversation:travel-20": "conversation_travel_20",
     "conversation:plans-1": "conversation_plans_1",
     "conversation:plans-2": "conversation_plans_2",
     "conversation:plans-3": "conversation_plans_3",
@@ -1996,6 +3096,76 @@
     "conversation:plans-7": "conversation_plans_7",
     "conversation:plans-8": "conversation_plans_8",
     "conversation:plans-9": "conversation_plans_9",
-    "conversation:plans-10": "conversation_plans_10"
+    "conversation:plans-10": "conversation_plans_10",
+    "conversation:plans-11": "conversation_plans_11",
+    "conversation:plans-12": "conversation_plans_12",
+    "conversation:plans-13": "conversation_plans_13",
+    "conversation:plans-14": "conversation_plans_14",
+    "conversation:plans-15": "conversation_plans_15",
+    "conversation:plans-16": "conversation_plans_16",
+    "conversation:plans-17": "conversation_plans_17",
+    "conversation:plans-18": "conversation_plans_18",
+    "conversation:plans-19": "conversation_plans_19",
+    "conversation:plans-20": "conversation_plans_20",
+    "conversation:today-1": "conversation_today_1",
+    "conversation:today-2": "conversation_today_2",
+    "conversation:today-3": "conversation_today_3",
+    "conversation:today-4": "conversation_today_4",
+    "conversation:today-5": "conversation_today_5",
+    "conversation:today-6": "conversation_today_6",
+    "conversation:today-7": "conversation_today_7",
+    "conversation:today-8": "conversation_today_8",
+    "conversation:today-9": "conversation_today_9",
+    "conversation:today-10": "conversation_today_10",
+    "conversation:today-11": "conversation_today_11",
+    "conversation:today-12": "conversation_today_12",
+    "conversation:today-13": "conversation_today_13",
+    "conversation:today-14": "conversation_today_14",
+    "conversation:today-15": "conversation_today_15",
+    "conversation:today-16": "conversation_today_16",
+    "conversation:today-17": "conversation_today_17",
+    "conversation:today-18": "conversation_today_18",
+    "conversation:today-19": "conversation_today_19",
+    "conversation:today-20": "conversation_today_20",
+    "conversation:work-1": "conversation_work_1",
+    "conversation:work-2": "conversation_work_2",
+    "conversation:work-3": "conversation_work_3",
+    "conversation:work-4": "conversation_work_4",
+    "conversation:work-5": "conversation_work_5",
+    "conversation:work-6": "conversation_work_6",
+    "conversation:work-7": "conversation_work_7",
+    "conversation:work-8": "conversation_work_8",
+    "conversation:work-9": "conversation_work_9",
+    "conversation:work-10": "conversation_work_10",
+    "conversation:work-11": "conversation_work_11",
+    "conversation:work-12": "conversation_work_12",
+    "conversation:work-13": "conversation_work_13",
+    "conversation:work-14": "conversation_work_14",
+    "conversation:work-15": "conversation_work_15",
+    "conversation:work-16": "conversation_work_16",
+    "conversation:work-17": "conversation_work_17",
+    "conversation:work-18": "conversation_work_18",
+    "conversation:work-19": "conversation_work_19",
+    "conversation:work-20": "conversation_work_20",
+    "conversation:health-1": "conversation_health_1",
+    "conversation:health-2": "conversation_health_2",
+    "conversation:health-3": "conversation_health_3",
+    "conversation:health-4": "conversation_health_4",
+    "conversation:health-5": "conversation_health_5",
+    "conversation:health-6": "conversation_health_6",
+    "conversation:health-7": "conversation_health_7",
+    "conversation:health-8": "conversation_health_8",
+    "conversation:health-9": "conversation_health_9",
+    "conversation:health-10": "conversation_health_10",
+    "conversation:health-11": "conversation_health_11",
+    "conversation:health-12": "conversation_health_12",
+    "conversation:health-13": "conversation_health_13",
+    "conversation:health-14": "conversation_health_14",
+    "conversation:health-15": "conversation_health_15",
+    "conversation:health-16": "conversation_health_16",
+    "conversation:health-17": "conversation_health_17",
+    "conversation:health-18": "conversation_health_18",
+    "conversation:health-19": "conversation_health_19",
+    "conversation:health-20": "conversation_health_20"
   }
 }

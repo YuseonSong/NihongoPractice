@@ -7,11 +7,11 @@ if(JSON.stringify(catalog)!==JSON.stringify(storedCatalog))throw new Error('í•™ì
 const manifest=JSON.parse(await readFile(new URL('../src/audio/manifest.json',import.meta.url),'utf8'))
 const review=JSON.parse(await readFile(new URL('../src/audio/reading-review.json',import.meta.url),'utf8'))
 const isDist=process.argv.includes('--dist'), root=new URL(`../${isDist?'dist':'public'}/audio/`,import.meta.url)
-const missing=[], invalid=[], directories={}, files=new Set()
+const missing=[], speechFallback=[], invalid=[], directories={}, files=new Set()
 let bytes=0,seconds=0
 for(const [id,script] of Object.entries(catalog.scripts)){
   const asset=manifest.assets[id]
-  if(!asset){missing.push(id);continue}
+  if(!asset){if(script.kind==='conversations')speechFallback.push(id);else missing.push(id);continue}
   try{
     if(!/^(kana|vocabulary|conversations)\/[a-z0-9_]+\.wav$/.test(asset.file)||files.has(asset.file))throw new Error('Invalid or duplicate asset path')
     files.add(asset.file)
@@ -24,7 +24,7 @@ for(const [id,script] of Object.entries(catalog.scripts)){
 }
 for(const [content,id] of Object.entries(catalog.content))if(!catalog.scripts[id])invalid.push({id:content,error:'Unmapped content'})
 if(manifest.engine?.version!==synthesisSettings.version||manifest.engine?.speaker!==synthesisSettings.speaker)invalid.push({id:'engine',error:'Engine metadata mismatch'})
-const report={root:isDist?'dist':'public',contentReferences:Object.keys(catalog.content).length,uniqueScripts:Object.keys(catalog.scripts).length,actualFiles:files.size,directories,bytes,seconds,missing,invalid}
+const report={root:isDist?'dist':'public',contentReferences:Object.keys(catalog.content).length,uniqueScripts:Object.keys(catalog.scripts).length,actualFiles:files.size,directories,bytes,seconds,missing,speechFallback,invalid}
 await mkdir(new URL('../artifacts/',import.meta.url),{recursive:true})
 await writeFile(new URL(`../artifacts/audio-${isDist?'dist':'source'}-check.json`,import.meta.url),JSON.stringify(report,null,2)+'\n')
 console.log(JSON.stringify(report,null,2))

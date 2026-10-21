@@ -1,7 +1,8 @@
 import type { ConversationCategory, Politeness } from '../types'
+import { conversationAdditions } from './conversation-additions.ts'
 
 type PhraseSeed = [string,string,string,string,string,Politeness,string]
-const makeCategory = (id:string,title:string,icon:string,description:string,seeds:PhraseSeed[]):ConversationCategory => ({id,title,icon,description,phrases:seeds.map((s,index)=>({id:`${id}-${index+1}`,categoryId:id,japanese:s[0],romaji:s[1],koreanSound:s[2],meaning:s[3],situation:s[4],politeness:s[5],note:s[6]}))})
+const makeCategory = (id:string,title:string,icon:string,description:string,seeds:PhraseSeed[]):ConversationCategory => ({id,title,icon,description,phrases:seeds.map((s,index)=>({id:`${id}-${index+1}`,categoryId:id,japanese:s[0],romaji:s[1],koreanSound:s[2],meaning:s[3],situation:s[4],politeness:s[5],note:s[6],related:'같은 상황의 다른 표현도 함께 소리 내어 연습해 보세요.'}))})
 
 export const conversationCategories: ConversationCategory[] = [
  makeCategory('greetings','인사 및 자기소개','👋','처음 만났을 때와 매일 쓰는 기본 인사',[ 
@@ -89,5 +90,12 @@ export const conversationCategories: ConversationCategory[] = [
   ['楽しみにしてる！','Tanoshimi ni shiteru!','타노시미니 시테루!','기대하고 있어!','약속 대화를 기분 좋게 마칠 때','반말','楽しみにする는 “기대하다”예요.']
  ])
 ]
+
+for(const [id,extra] of Object.entries(conversationAdditions)){
+ let category=conversationCategories.find(item=>item.id===id)
+ if(!category){category={id,title:extra.title!,icon:extra.icon!,description:extra.description!,phrases:[]};conversationCategories.push(category)}
+ const offset=category.phrases.length
+ category.phrases.push(...extra.items.map((item,index)=>({id:`${id}-${offset+index+1}`,categoryId:id,japanese:item[0],romaji:item[1],koreanSound:item[2],meaning:item[3],politeness:item[4],situation:extra.situation,note:extra.note,related:extra.related})))
+}
 
 export const allConversationPhrases = conversationCategories.flatMap(category=>category.phrases)

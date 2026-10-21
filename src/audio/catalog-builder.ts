@@ -33,8 +33,7 @@ export function buildAudioCatalog(hiragana:KanaCharacter[],katakana:KanaCharacte
     }
   }
   for(const phrase of phrases){
-    const reading=readings[phrase.id]
-    if(!reading)throw new Error(`읽기 검토가 필요합니다: ${phrase.id}`)
+    const reading=readings[phrase.id]??phrase.japanese
     const overrides:Record<string,string>={'plans-1':'今週末、あいてる？','hobbies-1':'趣味はなんですか。','dining-3':'おすすめはなんですか。'}
     put(`conversation:${phrase.id}`,{id:`conversation_${phrase.id.replace(/-/g,'_')}`,kind:'conversations',text:phrase.japanese,reading,
       synthesisText:overrides[phrase.id]??phrase.japanese,

@@ -9,13 +9,15 @@ import { clearSavedViews, useSavedState } from './hooks/useSavedState'
 import { Conversation } from './pages/Conversation'
 import { Handwriting } from './pages/Handwriting'
 import { Home } from './pages/Home'
+import { Grammar } from './pages/Grammar'
+import { SentenceBuilder } from './pages/SentenceBuilder'
 import { KanaStudy } from './pages/KanaStudy'
 import { PronunciationGuide } from './pages/PronunciationGuide'
 import { Quiz } from './pages/Quiz'
 import { Review } from './pages/Review'
 import type { QuizLaunch, ResumeTarget, ScriptType, Tab } from './types'
 
-const labels:Record<Exclude<Tab,'home'>,string>={hiragana:'히라가나',katakana:'가타카나',conversation:'일상 회화',handwriting:'직접 그려보기',quiz:'퀴즈',review:'오답 복습',pronunciation:'발음 길잡이'}
+const labels:Record<Exclude<Tab,'home'>,string>={hiragana:'히라가나',katakana:'가타카나',conversation:'일상 회화',grammar:'기초 문법',builder:'문장 만들기',handwriting:'직접 그려보기',quiz:'퀴즈',review:'오답 복습',pronunciation:'발음 길잡이'}
 type WritingTarget={script:ScriptType;char:string}
 const initialWriting:WritingTarget={script:'hiragana',char:'あ'}
 const validResume=(raw:unknown):raw is ResumeTarget|null=>raw===null||!!raw&&typeof raw==='object'&&'tab' in raw&&typeof raw.tab==='string'&&Object.hasOwn(labels,raw.tab)&&'label' in raw&&typeof raw.label==='string'&&raw.label.length<=160
@@ -29,7 +31,7 @@ export default function App(){
   const [writingTarget,setWritingTarget]=useSavedState('writing-target',initialWriting,validTarget)
   const [quizRequest,setQuizRequest]=useState<QuizLaunch>()
   const nonce=useRef(Date.now())
-  const {progress,toggleKanaLearned,toggleConversationLearned,toggleFavorite,recordAnswer,recordHandwriting,reset,todayLearnedCount}=useProgress()
+  const {progress,toggleKanaLearned,toggleConversationLearned,toggleFavorite,recordAnswer,recordHandwriting,toggleGrammarLearned,recordBuilder,reset,todayLearnedCount}=useProgress()
   const remember=useCallback((next:Exclude<Tab,'home'>,label:string)=>setResume(previous=>previous?.tab===next&&previous.label===label?previous:{tab:next,label}),[setResume])
   const navigate=useCallback((next:Tab)=>{
     if(next===tab)return
@@ -66,7 +68,9 @@ export default function App(){
       {tab==='home'&&<Home progress={progress} todayLearnedCount={todayLearnedCount} setTab={navigate} reset={resetAll} resume={resume} onContinue={()=>{if(resume)navigate(resume.tab)}}/>}
       {tab==='hiragana'&&<KanaStudy onResume={resumeCallbacks.hiragana} onWrite={openWriting} script="hiragana" basic={hiragana} learned={progress.learned} toggleLearned={toggleKanaLearned}/>}
       {tab==='katakana'&&<KanaStudy onResume={resumeCallbacks.katakana} onWrite={openWriting} script="katakana" basic={katakanaBasic} extended={katakanaExtended} learned={progress.katakanaLearned} toggleLearned={toggleKanaLearned}/>}
-      {tab==='conversation'&&<Conversation onResume={resumeCallbacks.conversation} progress={progress} toggleLearned={toggleConversationLearned} toggleFavorite={toggleFavorite}/>}
+      {tab==='grammar'&&<Grammar learned={progress.grammarLearned} toggleLearned={toggleGrammarLearned} recordAnswer={recordAnswer}/>}
+      {tab==='builder'&&<SentenceBuilder mistakes={progress.sentenceMistakes} record={recordBuilder}/>}
+      {tab==='conversation'&&<Conversation onResume={resumeCallbacks.conversation} progress={progress} toggleLearned={toggleConversationLearned} toggleFavorite={toggleFavorite} onStartQuiz={(ids)=>startQuiz({scope:'conversation',ids})}/>}
       {tab==='pronunciation'&&<PronunciationGuide onStudy={()=>navigate('hiragana')}/>}
       {tab==='quiz'&&<Quiz progress={progress} recordAnswer={recordAnswer} initialRequest={quizRequest} onResume={resumeCallbacks.quiz} onLearn={navigate}/>}
       {tab==='review'&&<Review progress={progress} toggleFavorite={toggleFavorite} setTab={navigate} onStartQuiz={startQuiz}/>}
@@ -74,6 +78,6 @@ export default function App(){
     </div>
     <OfflineSupport/>
     <AudioCredits/>
-    <footer className="hidden border-t border-orange-100 py-7 text-center text-xs font-semibold text-stone-500 lg:block">Nihongo Mate · 매일 조금씩, 일본어와 가까워져요.</footer>
+    <footer className="hidden border-t border-orange-100 py-7 text-center text-xs font-semibold text-stone-500 lg:block">Yuseon's Nihongo · 매일 조금씩, 일본어와 가까워져요.</footer>
   </div>
 }

@@ -10,7 +10,7 @@ Push-Location $project
 try {
   New-Item -ItemType Directory -Force (Join-Path $project 'artifacts') | Out-Null
   $env:Path = "$(Join-Path $env:USERPROFILE '.cargo\bin');$env:Path"
-  '{"app":{"windows":[{"label":"main","title":"Nihongo Mate","width":1200,"height":900,"additionalBrowserArgs":"--remote-debugging-port=9222 --remote-debugging-address=127.0.0.1"}]}}' | Set-Content -LiteralPath $config -Encoding UTF8
+  '{"app":{"windows":[{"label":"main","title":"Yuseon's Nihongo","width":1200,"height":900,"additionalBrowserArgs":"--remote-debugging-port=9222 --remote-debugging-address=127.0.0.1"}]}}' | Set-Content -LiteralPath $config -Encoding UTF8
   if (-not $SkipBuild) {
     & (Join-Path $project 'node_modules\.bin\tauri.cmd') build --no-bundle --config $config
     if ($LASTEXITCODE -ne 0) { throw 'Test Release build failed.' }

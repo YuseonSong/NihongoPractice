@@ -16,11 +16,11 @@ KanjiVG는 실제 SVG 획 경로를 기준 순서대로 보관합니다.
 원본: https://github.com/KanjiVG/kanjivg
 
 고정 커밋 `70a0b7ae0c18ceb5cb358274b029cce0234a43bc`의
-`03042.svg`, `03044.svg`, `03046.svg`, `03048.svg`, `0304a.svg`를 사용했습니다.
+히라가나·가타카나 기본 46자에 해당하는 SVG 92개를 사용했습니다.
 원본, 저작자 Ulrich Apel 및 기여자 표시, CC BY-SA 3.0 라이선스 전문을
 `public/strokes/`에 보관합니다. 이 문서는 출처 고지가 포함된 자료를 대체하지 않습니다.
 
-`scripts/generate-strokes.py`는 각 원본의 상대 cubic Bézier 경로를 32구간씩
+`scripts/generate-strokes.mjs`는 각 원본의 상대 cubic Bézier 경로를 32구간씩
 샘플링하고 순서·방향을 그대로 유지해 `src/data/writing-strokes.json`을 만듭니다.
 원본과 파생 좌표 데이터는 CC BY-SA 3.0입니다. 새 SVG 명령어가 나오면
 생성기를 중단하므로, 지원하지 않는 경로를 조용히 잘못 변환하지 않습니다.
@@ -120,7 +120,7 @@ Windows **Release WebView2**에서도 마우스·터치·펜 기준 경로 입�
 
 ```powershell
 npm.cmd ci
-python scripts/generate-strokes.py
+python scripts/generate-strokes.mjs
 npm.cmd test -- --silent=false
 npm.cmd run build
 npx.cmd playwright install chromium
@@ -141,7 +141,7 @@ NSIS 설치 프로그램은 기존 설정대로 WebView2가 없는 PC에서는 �
 
 - 화면·통합: `src/App.tsx`, `src/components/Navigation.tsx`, `src/pages/KanaStudy.tsx`, `src/pages/Home.tsx`
 - 신규 필기 화면: `src/pages/Handwriting.tsx`, `src/components/WritingCanvas.tsx`, `src/components/WritingStats.tsx`, `src/styles.css`
-- 평가·데이터: `src/utils/handwriting.ts`, `src/data/writing-strokes.json`, `public/strokes/*`, `scripts/generate-strokes.py`
+- 평가·데이터: `src/utils/handwriting.ts`, `src/data/writing-strokes.json`, `public/strokes/*`, `scripts/generate-strokes.mjs`
 - 기록: `src/types/index.ts`, `src/hooks/useProgress.ts`
 - 테스트: `src/test/handwriting.test.ts`, `src/test/WritingCanvas.test.tsx`, `src/test/progress.test.ts`, `scripts/test-handwriting-browser.mjs`, `scripts/test-handwriting-desktop.ps1`
 - 배포·의존성: `package.json`, `package-lock.json`, `src-tauri/Cargo.toml`, `src-tauri/Cargo.lock`, `src-tauri/tauri.conf.json`, `.gitignore`

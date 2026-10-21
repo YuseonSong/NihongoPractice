@@ -3,7 +3,7 @@
 Copyright (C) 2009/2010/2011 Ulrich Apel and KanjiVG contributors.
 Source: https://github.com/KanjiVG/kanjivg
 Revision: 70a0b7ae0c18ceb5cb358274b029cce0234a43bc
-Files: kanji/03042.svg, 03044.svg, 03046.svg, 03048.svg, 0304a.svg
+Files: 92 SVG files for the 46 basic hiragana and 46 basic katakana in this directory.
 Project: https://kanjivg.tagaini.net/
 License: Creative Commons Attribution-ShareAlike 3.0 Unported
 https://creativecommons.org/licenses/by-sa/3.0/

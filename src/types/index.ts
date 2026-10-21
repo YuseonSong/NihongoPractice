@@ -1,4 +1,4 @@
-export type Tab = 'home' | 'hiragana' | 'katakana' | 'conversation' | 'quiz' | 'review' | 'handwriting' | 'pronunciation'
+export type Tab = 'home' | 'hiragana' | 'katakana' | 'conversation' | 'grammar' | 'builder' | 'quiz' | 'review' | 'handwriting' | 'pronunciation'
 export type QuizScope = 'hiragana' | 'katakana' | 'conversation'
 export interface QuizItemStat { scope:QuizScope; id:string; correct:number; wrong:number; lastCorrect:boolean; updatedAt:string }
 export interface QuizLaunch { scope:QuizScope; ids?:string[]; mode?:'learned'|'basic'|'all'|'mistakes'; nonce:number }
@@ -27,6 +27,7 @@ export interface ConversationPhrase {
   situation: string
   politeness: Politeness
   note: string
+  related: string
 }
 
 export interface ConversationCategory {
@@ -54,5 +55,8 @@ export interface Progress {
   conversationLearned: string[]
   favorites: string[]
   completionDates: Record<string, string>
-  quizStats: Record<'hiragana' | 'katakana' | 'conversation', QuizStat>
+  quizStats: Record<'hiragana' | 'katakana' | 'conversation' | 'grammar', QuizStat>
+  grammarLearned: string[]
+  sentenceMistakes: string[]
+  builderCorrect: number
 }

@@ -55,6 +55,7 @@ function KanaStudyContent({script,basic,extended=[],learned,toggleLearned,onWrit
         <button type="button" aria-pressed={view.mode==='cards'} onClick={()=>setView(previous=>({...previous,mode:'cards'}))} className={`flex min-h-10 items-center gap-2 rounded-lg px-4 py-2 text-sm font-bold ${view.mode==='cards'?'bg-ink text-white':'text-stone-500'}`}><Layers3 size={16}/>암기 카드</button>
       </div>
     </div>
+    <details className="mt-4 rounded-2xl border border-orange-100 bg-white p-4 text-sm"><summary className="cursor-pointer font-black">장음과 촉음 기초</summary><div className="mt-3 grid gap-3 text-stone-600 sm:grid-cols-2"><p><strong className="text-ink">장음</strong>은 소리를 한 박자 길게 늘여요. 가타카나는 コーヒー처럼 ー를 자주 쓰고, 히라가나는 おう·えい 등으로 적기도 해요.</p><p><strong className="text-ink">촉음 っ・ッ</strong>은 다음 자음 앞에서 한 박자 멈춰요. きて(와서)와 きって(우표)를 구별해 들어 보세요.</p></div></details>
     {extended.length>0&&<div className="mt-5 flex flex-wrap gap-2" aria-label="문자 종류">{filters.map(([id,label])=><button type="button" key={id} aria-pressed={view.filter===id} onClick={()=>changeFilter(id)} className={`min-h-10 rounded-full px-4 py-2 text-sm font-bold ${view.filter===id?'bg-rose-400 text-white':'border border-orange-100 bg-white text-stone-500'}`}>{label}</button>)}</div>}
     {view.mode==='table'?<div className="mt-6 grid items-start gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,.9fr)]">
       <section aria-label={`${title} 문자 선택`} className="order-2 rounded-3xl border border-orange-100 bg-white p-4 sm:p-5 lg:order-1">
@@ -71,7 +72,7 @@ function KanaStudyContent({script,basic,extended=[],learned,toggleLearned,onWrit
         <div className="flex items-center justify-between gap-2"><button type="button" aria-label="이전 문자" onClick={()=>move(-1)} className="inline-flex min-h-11 items-center gap-1 rounded-xl bg-stone-100 px-3 text-sm font-bold text-stone-600"><ChevronLeft size={16}/>이전</button><div className="text-xs font-bold text-stone-400"><p>{card.group}</p><p className="mt-1">{index+1} / {filtered.length}</p></div><button type="button" aria-label="다음 문자" onClick={()=>move(1)} className="inline-flex min-h-11 items-center gap-1 rounded-xl bg-stone-100 px-3 text-sm font-bold text-stone-600">다음<ChevronRight size={16}/></button></div>
         <p className="mt-4 text-8xl leading-tight" lang="ja">{card.char}</p><p className="mt-3 text-2xl font-black text-rose-500">{card.romaji} <span className="ml-1 text-base font-semibold text-stone-500">{card.sound}</span></p><p className="mt-3 rounded-xl bg-cream p-3 text-sm leading-relaxed text-stone-600">{card.tip}</p>
         {audio}<div className="mt-5 flex flex-wrap justify-center gap-2">{markLearned}<button type="button" onClick={()=>onWrite(script,card.char)} className="writing-button">직접 써보기 · {card.char}</button></div>
-        <p className="mt-3 text-xs text-stone-400">손글씨 채점은 あ・い・う・え・お만 지원해요.</p>
+        <p className="mt-3 text-xs text-stone-400">손글씨 채점은 히라가나·가타카나 기본 46자 전체를 지원해요.</p>
       </section>}
     </div>:card&&<section ref={detailRef} aria-label="암기 카드 학습" className="mx-auto mt-6 max-w-xl text-center">
       <div className="mb-3 flex justify-between text-sm font-bold text-stone-400"><span>{index+1} / {filtered.length}</span><span>{card.group}</span></div>

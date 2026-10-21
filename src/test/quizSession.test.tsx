@@ -6,7 +6,7 @@ import type { Progress, QuizItemStat } from '../types'
 import { answerQuiz, getQuizItem, makeQuizSession, nextQuizQuestion, quizPool, SELF_REVIEW, unresolvedQuizItems, validSavedQuiz } from '../utils/quizSession'
 
 vi.mock('../components/AudioControls',()=>({AudioControls:({label}:{label:string})=><span>{label} 음성</span>}))
-const base=():Progress=>({learned:[],katakanaLearned:[],conversationLearned:[],favorites:[],completionDates:{},quizCorrect:0,quizTotal:0,streak:0,lastStudyDate:null,quizStats:{hiragana:{correct:0,total:0},katakana:{correct:0,total:0},conversation:{correct:0,total:0}},handwriting:{},quizItems:{}})
+const base=():Progress=>({learned:[],katakanaLearned:[],conversationLearned:[],favorites:[],completionDates:{},quizCorrect:0,quizTotal:0,streak:0,lastStudyDate:null,quizStats:{hiragana:{correct:0,total:0},katakana:{correct:0,total:0},conversation:{correct:0,total:0},grammar:{correct:0,total:0}},handwriting:{},quizItems:{},grammarLearned:[],sentenceMistakes:[],builderCorrect:0})
 const stat=(id:string,lastCorrect=false,wrong=1):QuizItemStat=>({scope:'hiragana',id,correct:lastCorrect?1:0,wrong,lastCorrect,updatedAt:'2026-10-20'})
 beforeEach(()=>localStorage.clear())
 afterEach(cleanup)
@@ -19,7 +19,7 @@ describe('유한 퀴즈의 출제 범위와 보기',()=>{
     expect(quizPool(progress,'katakana','basic')).toHaveLength(46)
     expect(quizPool(progress,'katakana','basic').some(item=>item.id==='ガ')).toBe(false)
     expect(quizPool(progress,'katakana','all').some(item=>item.id==='キャ')).toBe(true)
-    expect(quizPool(progress,'conversation','basic')).toHaveLength(10)
+    expect(quizPool(progress,'conversation','basic')).toHaveLength(20)
   })
   it('짧은 범위는 실제 개수만 출제하며 오답 보기도 해당 범위 안에서 고른다',()=>{
     const pool=quizPool({...base(),learned:['あ','い']},'hiragana','learned')

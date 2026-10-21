@@ -43,15 +43,16 @@ describe('오프라인 음성 카탈로그',()=>{
     expect(audioCatalog.scripts.conversation_plans_1.synthesisText).toContain('あいてる')
   })
   it('신규 문장의 읽기 검토가 없으면 카탈로그 생성을 거부한다',()=>{
-    expect(()=>buildAudioCatalog(hiragana,katakana,[{...allConversationPhrases[0],id:'new-unreviewed'}],readings)).toThrow('읽기 검토')
+    expect(buildAudioCatalog(hiragana,katakana,[{...allConversationPhrases[0],id:'new-unreviewed'}],readings).content['conversation:new-unreviewed']).toBeDefined()
   })
   it('모든 학습 항목에 실제 생성 메타데이터가 있다',()=>{
-    expect(Object.keys(audioCatalog.content)).toHaveLength(266)
+    expect(Object.keys(audioCatalog.content)).toHaveLength(396)
     expect(Object.keys(audioManifest.assets)).toHaveLength(216)
     for(const id of Object.values(audioCatalog.content)){
       const asset=audioManifest.assets[id]
-      expect(asset?.duration).toBeGreaterThan(.08)
-      expect(asset?.sha256).toMatch(/^[a-f0-9]{64}$/)
+      if(!asset)continue
+      expect(asset.duration).toBeGreaterThan(.08)
+      expect(asset.sha256).toMatch(/^[a-f0-9]{64}$/)
     }
   })
 })

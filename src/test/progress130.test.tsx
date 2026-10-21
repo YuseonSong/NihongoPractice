@@ -12,14 +12,15 @@ afterEach(()=>{cleanup();vi.useRealTimers()})
 describe('1.3.0 학습 기록 보존',()=>{
   it('1.2.0 기록을 그대로 보존하고 문자별 과거 오답을 임의로 만들지 않는다',()=>{
     const saved=legacy(),migrated=migrateProgress(saved)
-    for(const [key,value] of Object.entries(saved))expect(migrated[key as keyof typeof saved]).toEqual(value)
+    for(const [key,value] of Object.entries(saved)){if(key==='quizStats')continue;expect(migrated[key as keyof typeof saved]).toEqual(value)}
+    expect(migrated.quizStats).toEqual({...saved.quizStats,grammar:{correct:0,total:0}})
     expect(migrated.quizItems).toEqual({})
     expect(unresolvedQuizItems(migrated)).toEqual([])
     expect(saved).not.toHaveProperty('quizItems')
   })
   it('오래된 히라가나 합계를 과목 통계로 옮겨도 새 오답은 생성하지 않는다',()=>{
     const migrated=migrateProgress({learned:['あ'],quizTotal:8,quizCorrect:3})
-    expect(migrated.quizStats).toEqual({hiragana:{correct:3,total:8},katakana:{correct:0,total:0},conversation:{correct:0,total:0}})
+    expect(migrated.quizStats).toEqual({hiragana:{correct:3,total:8},katakana:{correct:0,total:0},conversation:{correct:0,total:0},grammar:{correct:0,total:0}})
     expect(migrated.quizTotal).toBe(8);expect(migrated.quizCorrect).toBe(3)
     expect(migrated.quizItems).toEqual({})
   })
@@ -33,7 +34,7 @@ describe('1.3.0 학습 기록 보존',()=>{
     expect(result.current.progress.quizItems['hiragana:あ']).toMatchObject({wrong:1,correct:1,lastCorrect:true})
     expect(unresolvedQuizItems(result.current.progress)).toEqual([])
     expect(result.current.progress.quizTotal).toBe(14);expect(result.current.progress.quizCorrect).toBe(8)
-    expect(result.current.progress.quizStats).toEqual({...saved.quizStats,hiragana:{total:7,correct:4}})
+    expect(result.current.progress.quizStats).toEqual({...saved.quizStats,hiragana:{total:7,correct:4},grammar:{correct:0,total:0}})
     for(const key of ['learned','katakanaLearned','conversationLearned','favorites','completionDates','handwriting'] as const)expect(result.current.progress[key]).toEqual(saved[key])
     expect(Number.isNaN(Date.parse(result.current.progress.quizItems['hiragana:あ'].updatedAt))).toBe(false)
     unmount();const restored=renderHook(()=>useProgress())

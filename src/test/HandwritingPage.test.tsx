@@ -14,10 +14,10 @@ beforeEach(()=>localStorage.clear())
 afterEach(cleanup)
 
 describe('손글씨 1.3 화면',()=>{
-  it('기본은 가이드가 켜진 5자이며 자유 연습에서 가타카나 확장 문자도 쓸 수 있다',()=>{
+  it('기본은 가이드가 켜진 46자이며 자유 연습에서 가타카나 확장 문자도 쓸 수 있다',()=>{
     render(<Handwriting {...createProps()}/>)
     expect(screen.getByLabelText('획순 가이드 표시')).toBeChecked()
-    expect(screen.getByLabelText('연습 문자').querySelectorAll('option')).toHaveLength(5)
+    expect(screen.getByLabelText('연습 문자').querySelectorAll('option')).toHaveLength(46)
     expect(screen.queryByRole('button',{name:'다시 쓰기'})).not.toBeInTheDocument()
     fireEvent.click(screen.getByRole('button',{name:'자유 연습 · 전체 문자'}))
     fireEvent.change(screen.getByLabelText('학습 모드'),{target:{value:'katakana'}})
@@ -86,7 +86,7 @@ describe('손글씨 1.3 화면',()=>{
     render(<Handwriting {...createProps()}/>)
     expect(screen.getByLabelText('획순 가이드 표시')).not.toBeChecked()
     expect(screen.queryByRole('button',{name:/입문 과정으로 돌아가기/})).not.toBeInTheDocument()
-    fireEvent.click(screen.getByRole('button',{name:'가이드 연습 · 5글자'}))
+    fireEvent.click(screen.getByRole('button',{name:'채점 연습 · 기본 46자'}))
     expect(screen.getByLabelText('획순 가이드 표시')).toBeChecked()
   })
 })

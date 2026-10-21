@@ -16,8 +16,10 @@ describe('손글씨 기록 추가와 보존',()=>{
     expect(result.current.progress.handwriting['あ']).toMatchObject({attempts:2,best:92,latest:60,sum:152})
     for(const [key,value] of Object.entries(existing))expect(result.current.progress[key as keyof typeof existing]).toEqual(value)
     act(()=>result.current.recordHandwriting('ア',100))
-    expect(result.current.progress.handwriting['ア']).toBeUndefined()
+    expect(result.current.progress.handwriting['ア']).toMatchObject({attempts:1,best:100,latest:100,sum:100})
     unmount()
-    expect(renderHook(()=>useProgress()).result.current.progress.handwriting['あ'].attempts).toBe(2)
+    const restored=renderHook(()=>useProgress()).result.current.progress.handwriting
+    expect(restored['あ'].attempts).toBe(2)
+    expect(restored['ア'].attempts).toBe(1)
   })
 })

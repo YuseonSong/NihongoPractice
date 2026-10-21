@@ -7,8 +7,11 @@ import re
 from pathlib import Path
 
 result = {}
-for code in ['03042', '03044', '03046', '03048', '0304a']:
-    source = Path(f'public/strokes/{code}.svg').read_text(encoding='utf-8')
+files = sorted(Path('public/strokes').glob('*.svg'))
+assert len(files) == 92, f'Expected 92 basic kana SVGs, found {len(files)}'
+for file in files:
+    code = file.stem
+    source = file.read_text(encoding='utf-8')
     paths = re.findall(r'<path\b[^>]*\bd="([^"]+)"', source)
     strokes = []
     for path in paths:
@@ -17,7 +20,7 @@ for code in ['03042', '03044', '03046', '03048', '0304a']:
         current = [float(tokens.pop(0)), float(tokens.pop(0))]
         points = [current[:]]
         while tokens:
-            assert tokens.pop(0) == 'c', 'Unsupported path command'
+            assert tokens.pop(0) == 'c', f'Unsupported path command in {file}'
             values = [float(tokens.pop(0)) for _ in range(6)]
             a = current[:]
             b, c, d = [[a[0]+values[i], a[1]+values[i+1]] for i in (0, 2, 4)]
